@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="540" viewBox="0 0 900 540" role="img" aria-labelledby="title desc">
+  <title id="title">AgentRadar product preview</title>
+  <desc id="desc">A clean product-style preview of an AI Agent trend radar dashboard.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#edf6ff"/>
+      <stop offset="1" stop-color="#dbeafe"/>
+    </linearGradient>
+    <linearGradient id="radar" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#256fd8"/>
+      <stop offset="1" stop-color="#59c2ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="540" fill="url(#bg)"/>
+  <rect x="72" y="62" width="756" height="416" rx="28" fill="#fff" stroke="#d7e4f2"/>
+  <rect x="72" y="62" width="756" height="72" rx="28" fill="#f8fbff"/>
+  <circle cx="112" cy="98" r="9" fill="#ff7b67"/>
+  <circle cx="140" cy="98" r="9" fill="#f7bf4f"/>
+  <circle cx="168" cy="98" r="9" fill="#45c779"/>
+  <text x="220" y="107" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800" fill="#172033">AgentRadar</text>
+  <g transform="translate(118 178)">
+    <circle cx="162" cy="162" r="132" fill="none" stroke="#d7e4f2" stroke-width="2"/>
+    <circle cx="162" cy="162" r="88" fill="none" stroke="#d7e4f2" stroke-width="2"/>
+    <circle cx="162" cy="162" r="44" fill="none" stroke="#d7e4f2" stroke-width="2"/>
+    <path d="M162 162L280 96" stroke="url(#radar)" stroke-width="9" stroke-linecap="round"/>
+    <path d="M162 162L223 275" stroke="#67b7ff" stroke-width="4" stroke-linecap="round"/>
+    <path d="M162 162L78 121" stroke="#8fcdfd" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="280" cy="96" r="13" fill="#256fd8"/>
+    <circle cx="223" cy="275" r="10" fill="#59c2ff"/>
+    <circle cx="78" cy="121" r="10" fill="#82c9ff"/>
+  </g>
+  <g transform="translate(500 178)">
+    <rect width="236" height="40" rx="12" fill="#edf4ff"/>
+    <rect y="64" width="290" height="40" rx="12" fill="#f3f7fb"/>
+    <rect y="128" width="214" height="40" rx="12" fill="#f3f7fb"/>
+    <rect y="192" width="260" height="40" rx="12" fill="#f3f7fb"/>
+    <rect x="16" y="13" width="138" height="14" rx="7" fill="#256fd8"/>
+    <rect x="16" y="77" width="210" height="14" rx="7" fill="#90a3bb"/>
+    <rect x="16" y="141" width="146" height="14" rx="7" fill="#90a3bb"/>
+    <rect x="16" y="205" width="190" height="14" rx="7" fill="#90a3bb"/>
+  </g>
+</svg>
