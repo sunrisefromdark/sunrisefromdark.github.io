@@ -15,6 +15,8 @@ const copy = {
       line1: "AI Agent and Agent Harness developer",
       line2: "Projects: AgentRadar and Text2SQL, with search / recommendation and verifiable data workflow experience",
       line3: "Building trend intelligence and data intelligence tools for AI-native systems",
+      primaryCta: "View Projects",
+      secondaryCta: "Open Source",
     },
     work: {
       title: "Portfolio",
@@ -48,8 +50,11 @@ const copy = {
       item3Title: "Agent harness and verification loops",
       item3Text:
         "Focusing on replayable runs, fixtures, schema checks, and quality gates for agentic workflows.",
-      item4Title: "Search and recommendation direction",
+      item4Title: "Apache InLong open-source contribution",
       item4Text:
+        "Contributed to Apache InLong in 2023, improving data integration framework code, security hardening, and engineering quality.",
+      item5Title: "Search and recommendation direction",
+      item5Text:
         "Working with candidate recall, ranking signals, freshness, and personalization as product-facing systems.",
     },
     stack: {
@@ -81,6 +86,8 @@ const copy = {
       line1: "AI Agent 与 Agent Harness 方向开发者",
       line2: "项目聚焦 AgentRadar 与 Text2SQL，能力覆盖搜索推荐和可验证数据工作流",
       line3: "正在构建面向 AI Agent 生态的趋势雷达与数据智能工具",
+      primaryCta: "查看项目",
+      secondaryCta: "开源贡献",
     },
     work: {
       title: "个人项目",
@@ -114,8 +121,11 @@ const copy = {
       item3Title: "Agent Harness 与验证回路",
       item3Text:
         "关注可回放运行、fixtures、schema 检查和 Agent 工作流质量门禁。",
-      item4Title: "搜索推荐方向",
+      item4Title: "Apache InLong 开源贡献",
       item4Text:
+        "参与 Apache InLong 相关贡献，围绕数据集成框架的代码修复、安全加固和工程质量改进。",
+      item5Title: "搜索推荐方向",
+      item5Text:
         "围绕候选生成、排序信号、新鲜度和个性化做产品化系统。",
     },
     stack: {
