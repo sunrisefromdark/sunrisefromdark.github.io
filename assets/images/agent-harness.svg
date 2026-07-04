@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="540" viewBox="0 0 900 540" role="img" aria-labelledby="title desc">
+  <title id="title">Agent Harness workflow preview</title>
+  <desc id="desc">A clean flow diagram showing input, run, replay, and quality gate for agent harnesses.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f5f7fb"/>
+      <stop offset="1" stop-color="#e8f0ff"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#256fd8"/>
+      <stop offset="1" stop-color="#59c2ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="540" fill="url(#bg)"/>
+  <rect x="84" y="74" width="732" height="392" rx="30" fill="#fff" stroke="#dce6f1"/>
+  <text x="118" y="130" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="850" fill="#172033">Agent Harness</text>
+  <text x="118" y="164" font-family="Inter, Arial, sans-serif" font-size="18" fill="#6b788a">replayable runs / fixtures / gates</text>
+  <g transform="translate(112 230)">
+    <rect width="142" height="112" rx="22" fill="#eef6ff" stroke="#d5e6fb"/>
+    <rect x="180" width="142" height="112" rx="22" fill="#eef6ff" stroke="#d5e6fb"/>
+    <rect x="360" width="142" height="112" rx="22" fill="#eef6ff" stroke="#d5e6fb"/>
+    <rect x="540" width="142" height="112" rx="22" fill="#eef6ff" stroke="#d5e6fb"/>
+    <path d="M142 56H180M322 56H360M502 56H540" stroke="#256fd8" stroke-width="5" stroke-linecap="round"/>
+    <text x="71" y="62" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="850" fill="#172033">Input</text>
+    <text x="251" y="62" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="850" fill="#172033">Run</text>
+    <text x="431" y="62" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="850" fill="#172033">Replay</text>
+    <text x="611" y="62" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="850" fill="#172033">Gate</text>
+  </g>
+  <g transform="translate(140 386)">
+    <rect width="160" height="28" rx="14" fill="url(#blue)" opacity="0.9"/>
+    <rect x="190" width="112" height="28" rx="14" fill="#dbeafe"/>
+    <rect x="330" width="190" height="28" rx="14" fill="#dbeafe"/>
+    <rect x="550" width="104" height="28" rx="14" fill="#dbeafe"/>
+  </g>
+</svg>
