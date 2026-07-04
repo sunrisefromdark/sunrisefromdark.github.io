@@ -1,5 +1,7 @@
 :root {
   color-scheme: light dark;
+  --content: 1080px;
+  --content-narrow: 900px;
   --bg: #f7f9fc;
   --bg-soft: #f2f5f9;
   --surface: #ffffff;
@@ -58,12 +60,12 @@ button {
 }
 
 .container {
-  width: min(1120px, calc(100% - 88px));
+  width: min(var(--content), calc(100% - 72px));
   margin: 0 auto;
 }
 
 .container.narrow {
-  width: min(900px, calc(100% - 88px));
+  width: min(var(--content-narrow), calc(100% - 72px));
 }
 
 .section-pad {
@@ -80,7 +82,7 @@ button {
 }
 
 .nav-shell {
-  width: min(1160px, calc(100% - 88px));
+  width: min(var(--content), calc(100% - 72px));
   height: 72px;
   margin: 0 auto;
   display: flex;
@@ -165,12 +167,10 @@ button {
 }
 
 .hero {
-  min-height: 580px;
+  min-height: 540px;
   display: flex;
   align-items: center;
-  background:
-    radial-gradient(circle at 50% 28%, color-mix(in srgb, var(--blue) 13%, transparent), transparent 30%),
-    var(--bg);
+  background: var(--bg);
 }
 
 .hero-center {
@@ -178,39 +178,32 @@ button {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding-top: 38px;
+  padding-top: 26px;
 }
 
 .avatar-wrap {
   position: relative;
-  width: 150px;
-  height: 150px;
-  margin-bottom: 36px;
+  width: 128px;
+  height: 128px;
+  margin-bottom: 30px;
 }
 
 .avatar {
   position: relative;
   z-index: 2;
-  width: 150px;
-  height: 150px;
+  width: 128px;
+  height: 128px;
   border-radius: 999px;
-  border: 5px solid var(--surface);
+  border: 4px solid var(--surface);
   object-fit: cover;
-  box-shadow: 0 12px 40px rgba(37, 111, 216, 0.24);
-}
-
-.avatar-glow {
-  position: absolute;
-  inset: -28px;
-  border-radius: 999px;
-  background: color-mix(in srgb, var(--blue) 20%, transparent);
-  filter: blur(24px);
+  box-shadow: 0 12px 32px rgba(15, 23, 42, 0.12);
 }
 
 .hero h1 {
-  margin: 0 0 22px;
-  font-size: clamp(2.7rem, 5.6vw, 4.9rem);
-  line-height: 1.1;
+  max-width: 980px;
+  margin: 0 0 20px;
+  font-size: clamp(2.25rem, 4.6vw, 3.85rem);
+  line-height: 1.12;
   letter-spacing: 0;
   font-weight: 900;
   background: linear-gradient(120deg, #111827 18%, var(--blue) 74%);
@@ -227,9 +220,10 @@ button {
 }
 
 .hero-subtitle {
+  max-width: 780px;
   margin: 0;
   color: var(--muted);
-  font-size: 1.2rem;
+  font-size: 1.12rem;
   line-height: 1.8;
 }
 
@@ -268,7 +262,8 @@ button {
 .project-grid.two-up,
 .artifact-grid.two-up {
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  max-width: 860px;
+  width: 100%;
+  max-width: 1040px;
   margin-inline: auto;
 }
 
@@ -359,12 +354,31 @@ button {
 }
 
 .artifact-card {
-  min-height: 245px;
-  padding: 30px;
+  min-height: 276px;
+  padding: 32px;
   border: 1px solid var(--line);
   border-radius: 14px;
   background: var(--surface);
   box-shadow: var(--shadow);
+}
+
+.contribution-card {
+  display: flex;
+  flex-direction: column;
+  transition: transform 180ms ease, box-shadow 180ms ease;
+}
+
+.contribution-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 22px 56px rgba(15, 23, 42, 0.12);
+}
+
+.artifact-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 24px;
 }
 
 .artifact-icon {
@@ -373,22 +387,58 @@ button {
   justify-content: center;
   width: 42px;
   height: 42px;
-  margin-bottom: 24px;
+  flex: 0 0 auto;
   border-radius: 10px;
   background: color-mix(in srgb, var(--blue) 12%, var(--surface));
   color: var(--blue);
   font-weight: 900;
 }
 
+.artifact-kicker {
+  min-height: 30px;
+  padding: 4px 12px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--bg-soft);
+  color: var(--muted);
+  font-size: 0.82rem;
+  font-weight: 800;
+}
+
 .artifact-card h3 {
   margin: 0;
-  font-size: 1.25rem;
+  font-size: 1.35rem;
   font-weight: 900;
 }
 
 .artifact-card p {
   margin: 14px 0 0;
   color: var(--muted);
+}
+
+.artifact-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 22px;
+}
+
+.artifact-tags span {
+  min-height: 30px;
+  padding: 4px 11px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--chip);
+  color: var(--blue);
+  font-size: 0.84rem;
+  font-weight: 750;
+}
+
+.artifact-link {
+  margin-top: auto;
+  padding-top: 24px;
+  color: var(--blue);
+  font-weight: 850;
 }
 
 .timeline {
@@ -549,11 +599,11 @@ button {
 @media (max-width: 680px) {
   .container,
   .container.narrow {
-    width: min(100% - 30px, 1120px);
+    width: min(100% - 30px, var(--content));
   }
 
   .nav-shell {
-    width: min(100% - 30px, 1160px);
+    width: min(100% - 30px, var(--content));
     height: 64px;
     gap: 10px;
   }
@@ -576,7 +626,7 @@ button {
   }
 
   .hero {
-    min-height: 600px;
+    min-height: 560px;
   }
 
   .avatar-wrap,
@@ -586,7 +636,7 @@ button {
   }
 
   .hero h1 {
-    font-size: clamp(2.25rem, 10.5vw, 3rem);
+    font-size: clamp(2rem, 9vw, 2.75rem);
   }
 
   .hero-subtitle {
