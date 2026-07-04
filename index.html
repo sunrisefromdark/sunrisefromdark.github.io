@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="zh" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="sunrisefromdark builds AI agent systems, agent harnesses, and search / recommendation workflows.">
+  <meta name="theme-color" content="#f8fafc">
+  <title>sunrisefromdark | AI Agent Portfolio</title>
+  <script>
+    const savedTheme = localStorage.getItem("theme") || "light";
+    const savedLang = localStorage.getItem("lang") || "zh";
+    document.documentElement.setAttribute("data-theme", savedTheme);
+    document.documentElement.setAttribute("lang", savedLang);
+  </script>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav-shell" aria-label="Primary navigation">
+      <a class="brand" href="#home" aria-label="sunrisefromdark home">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span data-i18n="brand.name">sunrisefromdark</span>
+      </a>
+
+      <div class="nav-links" aria-label="Section links">
+        <a href="#work" data-i18n="nav.work">个人项目</a>
+        <a href="#open-source" data-i18n="nav.openSource">开源贡献</a>
+        <a href="#timeline" data-i18n="nav.timeline">时间轴</a>
+        <a href="#stack" data-i18n="nav.stack">技术栈</a>
+        <a href="#contact" data-i18n="nav.contact">联系我</a>
+      </div>
+
+      <div class="nav-actions">
+        <button class="control-btn" type="button" data-lang-toggle>English</button>
+        <button class="control-btn icon-btn" type="button" data-theme-toggle aria-label="Toggle theme">
+          <span data-theme-label>Dark</span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="container hero-center">
+        <div class="avatar-wrap">
+          <img class="avatar" src="https://avatars.githubusercontent.com/u/101461962?v=4" alt="GitHub avatar of sunrisefromdark">
+          <span class="avatar-glow" aria-hidden="true"></span>
+        </div>
+        <h1 data-i18n="hero.title">你好，我是 sunrisefromdark</h1>
+        <p class="hero-subtitle" data-i18n="hero.line1">AI Agent 与 Agent Harness 方向开发者</p>
+        <p class="hero-subtitle" data-i18n="hero.line2">擅长搜索推荐、候选召回、排序评分与可验证数据工作流</p>
+        <p class="hero-subtitle" data-i18n="hero.line3">正在构建 AgentRadar：面向 AI Agent 生态的趋势雷达</p>
+      </div>
+    </section>
+
+    <section id="work" class="section-pad">
+      <div class="container">
+        <div class="section-heading centered">
+          <h2 data-i18n="work.title">个人项目</h2>
+          <span class="heading-line" aria-hidden="true"></span>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-media">
+              <img src="assets/images/agent-radar.svg" alt="AgentRadar visual preview">
+            </div>
+            <div class="project-body">
+              <h3>AgentRadar</h3>
+              <p data-i18n="projects.agentRadar">面向 AI Agent 生态的开源趋势雷达，负责信号采集、项目评分、日报周报和知识卡沉淀。</p>
+              <div class="tag-row">
+                <span>TypeScript</span>
+                <span>React</span>
+                <span>AI Agent</span>
+                <span>Trend Radar</span>
+              </div>
+              <a class="text-link" href="https://github.com/sunrisefromdark/agentRadar" target="_blank" rel="noreferrer" data-i18n="projects.detail">查看详情 -></a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-media">
+              <img src="assets/images/agent-harness.svg" alt="Agent harness workflow preview">
+            </div>
+            <div class="project-body">
+              <h3 data-i18n="projects.harnessTitle">Agent Harness 质量回路</h3>
+              <p data-i18n="projects.harnessText">围绕 Agent 运行、回放、评测、schema 校验和质量门禁设计可复现的工程链路。</p>
+              <div class="tag-row">
+                <span>Replay</span>
+                <span>Evaluation</span>
+                <span>Fixtures</span>
+                <span>Quality Gate</span>
+              </div>
+              <a class="text-link" href="#open-source" data-i18n="projects.detail">查看详情 -></a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-media">
+              <img src="assets/images/search-rec.svg" alt="Search and recommendation ranking preview">
+            </div>
+            <div class="project-body">
+              <h3 data-i18n="projects.searchTitle">搜索推荐与排序系统</h3>
+              <p data-i18n="projects.searchText">从噪声信号中做候选召回、评分排序、新鲜度判断和个性化推荐。</p>
+              <div class="tag-row">
+                <span>Search</span>
+                <span>Ranking</span>
+                <span>Scoring</span>
+                <span>Freshness</span>
+              </div>
+              <a class="text-link" href="#stack" data-i18n="projects.detail">查看详情 -></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="open-source" class="section-pad alt-section">
+      <div class="container">
+        <div class="section-heading centered">
+          <h2 data-i18n="openSource.title">开源贡献</h2>
+          <span class="heading-line" aria-hidden="true"></span>
+        </div>
+
+        <div class="artifact-grid">
+          <a class="artifact-card" href="https://github.com/sunrisefromdark/agentRadar" target="_blank" rel="noreferrer">
+            <span class="artifact-icon">AR</span>
+            <h3>AgentRadar</h3>
+            <p data-i18n="openSource.agentRadar">Daily / weekly AI Agent trend artifacts with evidence and ranking context.</p>
+          </a>
+          <a class="artifact-card" href="https://github.com/sunrisefromdark/TubeMQTools" target="_blank" rel="noreferrer">
+            <span class="artifact-icon">TM</span>
+            <h3>TubeMQTools</h3>
+            <p data-i18n="openSource.tubemq">Java-side tooling experience around data infrastructure and integration workflows.</p>
+          </a>
+          <a class="artifact-card" href="https://github.com/sunrisefromdark/inlong" target="_blank" rel="noreferrer">
+            <span class="artifact-icon">IN</span>
+            <h3>Apache InLong</h3>
+            <p data-i18n="openSource.inlong">Exploration of large-scale data integration systems and open-source ecosystem structure.</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="timeline" class="section-pad">
+      <div class="container narrow">
+        <div class="section-heading centered">
+          <h2 data-i18n="timeline.title">经历时间轴</h2>
+          <span class="heading-line" aria-hidden="true"></span>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item">
+            <time>2026</time>
+            <div>
+              <h3 data-i18n="timeline.item1Title">Building AgentRadar</h3>
+              <p data-i18n="timeline.item1Text">Turning public AI Agent signals into ranked projects, weekly trend judgments, and reusable research artifacts.</p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <time>2026</time>
+            <div>
+              <h3 data-i18n="timeline.item2Title">Agent harness and verification loops</h3>
+              <p data-i18n="timeline.item2Text">Focusing on replayable runs, fixtures, schema checks, and quality gates for agentic workflows.</p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <time>2025+</time>
+            <div>
+              <h3 data-i18n="timeline.item3Title">Search and recommendation direction</h3>
+              <p data-i18n="timeline.item3Text">Working with candidate generation, ranking signals, freshness, and personalization as product-facing systems.</p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <time>2023</time>
+            <div>
+              <h3 data-i18n="timeline.item4Title">Data tooling foundation</h3>
+              <p data-i18n="timeline.item4Text">Explored Java tooling and data integration ecosystems through TubeMQ / InLong-related repositories.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="stack" class="section-pad alt-section">
+      <div class="container">
+        <div class="section-heading centered">
+          <h2 data-i18n="stack.title">技术栈</h2>
+          <span class="heading-line" aria-hidden="true"></span>
+        </div>
+
+        <div class="stack-grid">
+          <article class="stack-column">
+            <h3>Agent Systems</h3>
+            <div class="chip-row">
+              <span>Tool Use</span>
+              <span>Memory</span>
+              <span>Structured Output</span>
+              <span>Workflow Design</span>
+            </div>
+          </article>
+          <article class="stack-column">
+            <h3>Harness</h3>
+            <div class="chip-row">
+              <span>Replay</span>
+              <span>Fixtures</span>
+              <span>Quality Gates</span>
+              <span>Observability</span>
+            </div>
+          </article>
+          <article class="stack-column">
+            <h3>Search / Rec</h3>
+            <div class="chip-row">
+              <span>Ranking</span>
+              <span>Freshness</span>
+              <span>Scoring</span>
+              <span>Candidate Gen</span>
+            </div>
+          </article>
+          <article class="stack-column">
+            <h3>Engineering</h3>
+            <div class="chip-row">
+              <span>TypeScript</span>
+              <span>Node.js</span>
+              <span>React</span>
+              <span>PostgreSQL</span>
+              <span>Java</span>
+              <span>Python</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section-pad contact-section">
+      <div class="container contact-card">
+        <div>
+          <p class="eyebrow" data-i18n="contact.eyebrow">Contact</p>
+          <h2 data-i18n="contact.title">联系我</h2>
+          <p data-i18n="contact.text">如果你也在关注 AI Agent、Agent Harness、搜索推荐或数据产品，欢迎交流。</p>
+        </div>
+        <div class="contact-links">
+          <a href="https://github.com/sunrisefromdark" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://github.com/sunrisefromdark/agentRadar" target="_blank" rel="noreferrer">AgentRadar</a>
+          <a href="https://app.agentradar.top/" target="_blank" rel="noreferrer">Live Demo</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>sunrisefromdark</span>
+    <span data-i18n="footer.text">个人主页</span>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
