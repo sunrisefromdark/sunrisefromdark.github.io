@@ -28,10 +28,14 @@ const copy = {
     },
     openSource: {
       title: "Open Source",
+      agentRadarKicker: "Open-source project",
       agentRadar:
         "Open-source project: AI Agent ecosystem signal collection, project scoring, trend reports, and knowledge cards.",
+      inlongKicker: "Apache contribution",
       inlong:
         "2023 Apache InLong contributions around the data integration framework, including Manager / Sort fixes and security hardening.",
+      repoLink: "Repository ->",
+      commitsLink: "Contribution records ->",
     },
     timeline: {
       title: "Timeline",
@@ -90,10 +94,14 @@ const copy = {
     },
     openSource: {
       title: "开源贡献",
+      agentRadarKicker: "开源项目",
       agentRadar:
         "开源项目：AI Agent 生态信号采集、项目评分、趋势报告与知识卡沉淀。",
+      inlongKicker: "Apache 贡献",
       inlong:
         "2023 年参与 Apache InLong 相关贡献，围绕数据集成框架的 Manager / Sort 等模块做代码修复与安全加固。",
+      repoLink: "代码仓库 ->",
+      commitsLink: "查看贡献记录 ->",
     },
     timeline: {
       title: "经历时间轴",
