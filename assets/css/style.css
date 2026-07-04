@@ -265,6 +265,13 @@ button {
   gap: 36px;
 }
 
+.project-grid.two-up,
+.artifact-grid.two-up {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  max-width: 860px;
+  margin-inline: auto;
+}
+
 .project-card {
   overflow: hidden;
   border: 1px solid var(--line);
@@ -527,6 +534,11 @@ button {
   .artifact-grid,
   .stack-grid {
     grid-template-columns: 1fr 1fr;
+  }
+
+  .project-grid.two-up,
+  .artifact-grid.two-up {
+    max-width: none;
   }
 
   .contact-card {

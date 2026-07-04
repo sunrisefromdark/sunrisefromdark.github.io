@@ -13,8 +13,8 @@ const copy = {
     hero: {
       title: "Hello, I'm sunrisefromdark",
       line1: "AI Agent and Agent Harness developer",
-      line2: "Focused on search, recommendation, ranking, scoring, and verifiable data workflows",
-      line3: "Currently building AgentRadar, a trend radar for the AI Agent ecosystem",
+      line2: "Projects: AgentRadar and Text2SQL, with search / recommendation and verifiable data workflow experience",
+      line3: "Building trend intelligence and data intelligence tools for AI-native systems",
     },
     work: {
       title: "Portfolio",
@@ -22,37 +22,31 @@ const copy = {
     projects: {
       agentRadar:
         "An open-source trend radar for the AI Agent ecosystem, covering signal collection, project scoring, daily / weekly reports, and knowledge cards.",
-      harnessTitle: "Agent Harness Quality Loop",
-      harnessText:
-        "Replayable engineering loops for agent runs, evaluation, schema checks, fixtures, and quality gates.",
-      searchTitle: "Search & Recommendation System",
-      searchText:
-        "Candidate generation, scoring, freshness modeling, ranking, and personalization from noisy signals.",
+      text2sql:
+        "A data intelligence project that turns natural-language questions into SQL, with schema linking, SQL generation, execution checks, and result validation.",
       detail: "View Details ->",
     },
     openSource: {
       title: "Open Source",
       agentRadar:
-        "Daily / weekly AI Agent trend artifacts with evidence and ranking context.",
-      tubemq:
-        "Java-side tooling experience around data infrastructure and integration workflows.",
-      inlong:
-        "Exploration of large-scale data integration systems and open-source ecosystem structure.",
+        "Public project: AI Agent ecosystem signal collection, project scoring, trend reports, and knowledge cards.",
+      text2sql:
+        "Current project: natural-language questions to executable SQL, with schema, execution-result, and error-repair validation.",
     },
     timeline: {
       title: "Timeline",
       item1Title: "Building AgentRadar",
       item1Text:
         "Turning public AI Agent signals into ranked projects, weekly trend judgments, and reusable research artifacts.",
-      item2Title: "Agent harness and verification loops",
+      item2Title: "Text2SQL project",
       item2Text:
-        "Focusing on replayable runs, fixtures, schema checks, and quality gates for agentic workflows.",
-      item3Title: "Search and recommendation direction",
+        "Building data intelligence around natural-language queries, schema linking, SQL generation, execution checks, and result validation.",
+      item3Title: "Agent harness and verification loops",
       item3Text:
-        "Working with candidate generation, ranking signals, freshness, and personalization as product-facing systems.",
-      item4Title: "Data tooling foundation",
+        "Focusing on replayable runs, fixtures, schema checks, and quality gates for agentic workflows.",
+      item4Title: "Search and recommendation direction",
       item4Text:
-        "Explored Java tooling and data integration ecosystems through TubeMQ / InLong-related repositories.",
+        "Working with candidate recall, ranking signals, freshness, and personalization as product-facing systems.",
     },
     stack: {
       title: "Tech Stack",
@@ -81,8 +75,8 @@ const copy = {
     hero: {
       title: "你好，我是 sunrisefromdark",
       line1: "AI Agent 与 Agent Harness 方向开发者",
-      line2: "擅长搜索推荐、候选召回、排序评分与可验证数据工作流",
-      line3: "正在构建 AgentRadar：面向 AI Agent 生态的趋势雷达",
+      line2: "项目聚焦 AgentRadar 与 Text2SQL，能力覆盖搜索推荐和可验证数据工作流",
+      line3: "正在构建面向 AI Agent 生态的趋势雷达与数据智能工具",
     },
     work: {
       title: "个人项目",
@@ -90,37 +84,31 @@ const copy = {
     projects: {
       agentRadar:
         "面向 AI Agent 生态的开源趋势雷达，负责信号采集、项目评分、日报周报和知识卡沉淀。",
-      harnessTitle: "Agent Harness 质量回路",
-      harnessText:
-        "围绕 Agent 运行、回放、评测、schema 校验和质量门禁设计可复现的工程链路。",
-      searchTitle: "搜索推荐与排序系统",
-      searchText:
-        "从噪声信号中做候选召回、评分排序、新鲜度判断和个性化推荐。",
+      text2sql:
+        "自然语言到 SQL 的数据智能项目，关注 schema linking、SQL 生成、执行校验和结果验证。",
       detail: "查看详情 ->",
     },
     openSource: {
       title: "开源贡献",
       agentRadar:
-        "带有证据链和排序上下文的 AI Agent 日报、周报和趋势产物。",
-      tubemq:
-        "围绕数据基础设施和集成工作流的 Java 工具经验。",
-      inlong:
-        "对大规模数据集成系统和开源生态结构的探索。",
+        "公开项目：AI Agent 生态信号采集、项目评分、趋势报告与知识卡沉淀。",
+      text2sql:
+        "当前项目：把自然语言问题转成可执行 SQL，并围绕 schema、执行结果和错误修正做验证。",
     },
     timeline: {
       title: "经历时间轴",
       item1Title: "构建 AgentRadar",
       item1Text:
         "把公开 AI Agent 信号转成项目排序、周级趋势判断和可复用研究产物。",
-      item2Title: "Agent Harness 与验证回路",
+      item2Title: "Text2SQL 项目",
       item2Text:
-        "关注可回放运行、fixtures、schema 检查和 Agent 工作流质量门禁。",
-      item3Title: "搜索推荐方向",
+        "围绕自然语言查询、schema linking、SQL 生成、执行校验和结果验证做数据智能工具。",
+      item3Title: "Agent Harness 与验证回路",
       item3Text:
-        "围绕候选生成、排序信号、新鲜度和个性化做产品化系统。",
-      item4Title: "数据工具基础",
+        "关注可回放运行、fixtures、schema 检查和 Agent 工作流质量门禁。",
+      item4Title: "搜索推荐方向",
       item4Text:
-        "通过 TubeMQ / InLong 相关仓库探索 Java 工具和数据集成生态。",
+        "围绕候选生成、排序信号、新鲜度和个性化做产品化系统。",
     },
     stack: {
       title: "技术栈",
@@ -129,7 +117,7 @@ const copy = {
       eyebrow: "联系",
       title: "联系我",
       text:
-        "如果你也在关注 AI Agent、Agent Harness、搜索推荐或数据产品，欢迎交流。",
+        "如果你也在关注 AI Agent、Agent Harness、Text2SQL、搜索推荐或数据产品，欢迎交流。",
     },
     footer: {
       text: "个人主页",

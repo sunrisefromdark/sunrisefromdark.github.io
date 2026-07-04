@@ -6,3 +6,4 @@ Personal GitHub Pages site for `sunrisefromdark`.
 - Agent Harnesses
 - Search & Recommendation
 - AgentRadar project showcase
+- Text2SQL project showcase
