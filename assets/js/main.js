@@ -30,8 +30,8 @@ const copy = {
       title: "Open Source",
       agentRadar:
         "Public project: AI Agent ecosystem signal collection, project scoring, trend reports, and knowledge cards.",
-      text2sql:
-        "Current project: natural-language questions to executable SQL, with schema, execution-result, and error-repair validation.",
+      inlong:
+        "2023 Apache InLong contributions around the data integration framework, including Manager / Sort fixes and security hardening.",
     },
     timeline: {
       title: "Timeline",
@@ -92,8 +92,8 @@ const copy = {
       title: "开源贡献",
       agentRadar:
         "公开项目：AI Agent 生态信号采集、项目评分、趋势报告与知识卡沉淀。",
-      text2sql:
-        "当前项目：把自然语言问题转成可执行 SQL，并围绕 schema、执行结果和错误修正做验证。",
+      inlong:
+        "2023 年参与 Apache InLong 相关贡献，围绕数据集成框架的 Manager / Sort 等模块做代码修复与安全加固。",
     },
     timeline: {
       title: "经历时间轴",
