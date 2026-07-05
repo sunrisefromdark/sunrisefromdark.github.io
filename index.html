@@ -23,7 +23,9 @@
       </a>
 
       <div class="nav-links" aria-label="Section links">
+        <a href="#now" data-i18n="nav.now">正在做</a>
         <a href="#work" data-i18n="nav.work">个人项目</a>
+        <a href="#architecture" data-i18n="nav.architecture">架构图</a>
         <a href="#open-source" data-i18n="nav.openSource">开源贡献</a>
         <a href="#timeline" data-i18n="nav.timeline">时间轴</a>
         <a href="#stack" data-i18n="nav.stack">技术栈</a>
@@ -51,7 +53,34 @@
         <p class="hero-subtitle" data-i18n="hero.line3">正在重做 AgentRadar 的周趋势判断，把公开信号转成可复核的趋势结论</p>
         <div class="hero-actions" aria-label="Hero actions">
           <a class="hero-action primary" href="#work" data-i18n="hero.primaryCta">查看项目</a>
-          <a class="hero-action" href="#open-source" data-i18n="hero.secondaryCta">开源贡献</a>
+          <a class="hero-action" href="#architecture" data-i18n="hero.secondaryCta">查看架构</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="now" class="section-pad now-section">
+      <div class="container">
+        <div class="section-heading compact">
+          <p class="eyebrow" data-i18n="now.eyebrow">Currently</p>
+          <h2 data-i18n="now.title">我正在做什么</h2>
+        </div>
+
+        <div class="focus-grid">
+          <article class="focus-card accent-blue">
+            <span class="focus-index">01</span>
+            <h3 data-i18n="now.item1Title">AgentRadar 周趋势判断重构中</h3>
+            <p data-i18n="now.item1Text">把公开 AI Agent 信号整理成候选池、排序理由和证据链，产出周级趋势判断。</p>
+          </article>
+          <article class="focus-card accent-green">
+            <span class="focus-index">02</span>
+            <h3 data-i18n="now.item2Title">Text2SQL 数据智能系统</h3>
+            <p data-i18n="now.item2Text">围绕 schema linking、SQL 生成、执行校验、结果验证和错误归因提升工程可信度。</p>
+          </article>
+          <article class="focus-card accent-amber">
+            <span class="focus-index">03</span>
+            <h3 data-i18n="now.item3Title">Agent Harness / 评测 / 可回放工作流</h3>
+            <p data-i18n="now.item3Text">关注可复现 fixtures、schema 检查、质量门禁和 agent 工作流的验证闭环。</p>
+          </article>
         </div>
       </div>
     </section>
@@ -74,11 +103,12 @@
                 <span>AI Agent</span>
               </div>
               <h3>AgentRadar</h3>
-              <p data-i18n="projects.agentRadar">核心亮点是私有仓库重构中的周趋势判断：把公开 AI Agent 信号转成有证据、有排序、有解释的周级趋势结论。</p>
+              <p data-i18n="projects.agentRadar">AI Agent 生态信号采集、排序判断与周趋势分析系统；核心亮点是私有仓库重构中的周趋势判断，把分散信号转成可复核结论。</p>
               <ul class="project-points">
-                <li data-i18n="projects.agentRadarPoint1">周趋势判断：识别项目、产品和生态信号的阶段性变化</li>
-                <li data-i18n="projects.agentRadarPoint2">证据链沉淀：保留候选来源、评分理由和可复核依据</li>
-                <li data-i18n="projects.agentRadarPoint3">输出物：日报 / 周报、项目卡片、趋势复盘</li>
+                <li data-i18n="projects.agentRadarPoint1">信号源：采集项目、产品、社区和生态动态，形成候选池</li>
+                <li data-i18n="projects.agentRadarPoint2">评分 / 排序：结合新鲜度、影响力、增长和相关性给出排序理由</li>
+                <li data-i18n="projects.agentRadarPoint3">证据链：保留来源、判断依据和人工复核上下文</li>
+                <li data-i18n="projects.agentRadarPoint4">输出：日报 / 月报、项目卡片、知识卡与周趋势复盘</li>
               </ul>
               <div class="tag-row">
                 <span>TypeScript</span>
@@ -103,11 +133,12 @@
                 <span>Data Intelligence</span>
               </div>
               <h3>Text2SQL</h3>
-              <p data-i18n="projects.text2sql">自然语言到 SQL 的数据智能项目，关注 schema linking、SQL 生成、执行校验和结果验证。</p>
+              <p data-i18n="projects.text2sql">自然语言到 SQL 的数据智能项目，重点不是只生成语句，而是把查询理解、执行反馈和结果验证串成可评估链路。</p>
               <ul class="project-points">
                 <li data-i18n="projects.text2sqlPoint1">Schema linking：把自然语言问题对齐到真实表结构</li>
-                <li data-i18n="projects.text2sqlPoint2">SQL 生成：面向业务查询生成可执行语句</li>
-                <li data-i18n="projects.text2sqlPoint3">结果验证：通过执行反馈检查 SQL 与答案质量</li>
+                <li data-i18n="projects.text2sqlPoint2">SQL 生成：面向业务查询生成可执行语句并控制方言约束</li>
+                <li data-i18n="projects.text2sqlPoint3">执行校验：通过数据库反馈检查语法、字段和结果可用性</li>
+                <li data-i18n="projects.text2sqlPoint4">评测闭环：沉淀评测集、错误归因和结果质量验证</li>
               </ul>
               <div class="tag-row">
                 <span>LLM</span>
@@ -120,6 +151,51 @@
               </div>
             </div>
           </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="architecture" class="section-pad architecture-section">
+      <div class="container">
+        <div class="section-heading centered">
+          <h2 data-i18n="architecture.title">AgentRadar 架构图</h2>
+          <span class="heading-line" aria-hidden="true"></span>
+          <p class="section-intro" data-i18n="architecture.intro">信号源 -> 评分 / 排序 -> 证据链 -> 周趋势判断 -> 日报 / 月报 / 知识卡输出</p>
+        </div>
+
+        <div class="architecture-panel" aria-label="AgentRadar architecture flow">
+          <ol class="arch-flow">
+            <li class="arch-stage">
+              <span class="stage-label" data-i18n="architecture.stage1Label">信号源</span>
+              <h3 data-i18n="architecture.stage1Title">Public Signals</h3>
+              <p data-i18n="architecture.stage1Text">GitHub、项目发布、产品动态、社区讨论与生态新闻。</p>
+            </li>
+            <li class="arch-stage">
+              <span class="stage-label" data-i18n="architecture.stage2Label">清洗归一</span>
+              <h3 data-i18n="architecture.stage2Title">Normalize</h3>
+              <p data-i18n="architecture.stage2Text">去重、时间窗口、实体归并、元数据补齐。</p>
+            </li>
+            <li class="arch-stage">
+              <span class="stage-label" data-i18n="architecture.stage3Label">评分 / 排序</span>
+              <h3 data-i18n="architecture.stage3Title">Score & Rank</h3>
+              <p data-i18n="architecture.stage3Text">结合新鲜度、增长、影响力和相关性生成排序理由。</p>
+            </li>
+            <li class="arch-stage">
+              <span class="stage-label" data-i18n="architecture.stage4Label">证据链</span>
+              <h3 data-i18n="architecture.stage4Title">Evidence Chain</h3>
+              <p data-i18n="architecture.stage4Text">保留来源链接、判断依据、摘要和复核上下文。</p>
+            </li>
+            <li class="arch-stage highlight">
+              <span class="stage-label" data-i18n="architecture.stage5Label">周趋势判断</span>
+              <h3 data-i18n="architecture.stage5Title">Weekly Judgment</h3>
+              <p data-i18n="architecture.stage5Text">识别阶段性变化，形成有理由、有置信度的趋势结论。</p>
+            </li>
+            <li class="arch-stage">
+              <span class="stage-label" data-i18n="architecture.stage6Label">输出</span>
+              <h3 data-i18n="architecture.stage6Title">Outputs</h3>
+              <p data-i18n="architecture.stage6Text">日报、月报、项目卡片、知识卡和趋势复盘。</p>
+            </li>
+          </ol>
         </div>
       </div>
     </section>
@@ -138,7 +214,12 @@
               <span class="artifact-kicker" data-i18n="openSource.agentRadarKicker">开源项目</span>
             </div>
             <h3>AgentRadar</h3>
-            <p data-i18n="openSource.agentRadar">开源部分沉淀 AgentRadar 的公开信号底座：持续采集 AI Agent 项目与生态动态，做项目评分、排序理由和知识卡归档，为周趋势判断提供候选池与证据链。</p>
+            <p data-i18n="openSource.agentRadar">开源部分沉淀 AgentRadar 的公开信号底座，为私有仓库里的周趋势判断提供候选池和可复核证据。</p>
+            <ul class="cred-list">
+              <li data-i18n="openSource.agentRadarPoint1">覆盖 AI Agent 项目与生态动态的公开信号采集</li>
+              <li data-i18n="openSource.agentRadarPoint2">沉淀项目评分、排序理由和知识卡归档链路</li>
+              <li data-i18n="openSource.agentRadarPoint3">保留在线演示与提交记录，方便查看实际贡献</li>
+            </ul>
             <div class="artifact-tags">
               <span>Open Source</span>
               <span>AI Agent</span>
@@ -157,6 +238,11 @@
             </div>
             <h3>Apache InLong</h3>
             <p data-i18n="openSource.inlong">2023 年参与 Apache InLong 相关贡献，围绕数据集成框架的 Manager / Sort 等模块做代码修复与安全加固。</p>
+            <ul class="cred-list">
+              <li data-i18n="openSource.inlongPoint1">参与 Manager / Sort 相关模块的代码修复</li>
+              <li data-i18n="openSource.inlongPoint2">关注数据集成链路的安全加固和工程质量</li>
+              <li data-i18n="openSource.inlongPoint3">通过 Apache InLong commit 记录可复核贡献范围</li>
+            </ul>
             <div class="artifact-tags">
               <span>Apache InLong</span>
               <span>Data Integration</span>
