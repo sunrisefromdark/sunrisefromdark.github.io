@@ -289,6 +289,27 @@ button {
   background: var(--blue);
 }
 
+.section-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 36px;
+  margin-top: 18px;
+  padding: 0 16px;
+  border: 1px solid color-mix(in srgb, var(--blue) 24%, var(--line));
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--blue) 8%, var(--surface));
+  color: var(--blue);
+  font-size: 0.95rem;
+  font-weight: 850;
+  transition: transform 180ms ease, background 180ms ease;
+}
+
+.section-link:hover {
+  transform: translateY(-2px);
+  background: color-mix(in srgb, var(--blue) 13%, var(--surface));
+}
+
 .project-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -573,6 +594,25 @@ button {
   padding-top: 24px;
   color: var(--blue);
   font-weight: 850;
+}
+
+.artifact-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: auto;
+  padding-top: 24px;
+}
+
+.artifact-actions a {
+  color: var(--blue);
+  font-weight: 850;
+}
+
+.artifact-actions a:hover,
+.artifact-link:hover {
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
 
 .timeline {
