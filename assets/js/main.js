@@ -14,7 +14,7 @@ const copy = {
       title: "Hello, I'm sunrisefromdark",
       line1: "AI Agent and Agent Harness developer",
       line2: "Projects: AgentRadar and Text2SQL, with search / recommendation and verifiable data workflow experience",
-      line3: "Building trend intelligence and data intelligence tools for AI-native systems",
+      line3: "Rebuilding AgentRadar's weekly trend judgment flow to turn public signals into verifiable trend conclusions",
       primaryCta: "View Projects",
       secondaryCta: "Open Source",
     },
@@ -24,10 +24,22 @@ const copy = {
     projects: {
       agentRadarMeta: "Open source",
       agentRadar:
-        "An open-source trend radar for the AI Agent ecosystem, covering signal collection, project scoring, daily / weekly reports, and knowledge cards.",
+        "The core highlight is the weekly trend judgment flow being rebuilt in a private repo: turning public AI Agent signals into evidence-backed, ranked, and explainable weekly trend conclusions.",
+      agentRadarPoint1:
+        "Weekly trend judgment: identify stage changes across projects, products, and ecosystem signals",
+      agentRadarPoint2:
+        "Evidence chain: preserve candidate sources, scoring reasons, and reviewable context",
+      agentRadarPoint3:
+        "Outputs: daily / weekly reports, project cards, and trend reviews",
       text2sqlMeta: "Private project",
       text2sql:
         "A data intelligence project that turns natural-language questions into SQL, with schema linking, SQL generation, execution checks, and result validation.",
+      text2sqlPoint1:
+        "Schema linking: align natural-language questions with real table structures",
+      text2sqlPoint2:
+        "SQL generation: produce executable queries for business-facing questions",
+      text2sqlPoint3:
+        "Result validation: use execution feedback to check SQL and answer quality",
       detail: "View Details ->",
       repo: "Repository",
       demo: "Live Demo",
@@ -37,7 +49,7 @@ const copy = {
       title: "Open Source",
       agentRadarKicker: "Open-source project",
       agentRadar:
-        "Open-source project: AI Agent ecosystem signal collection, project scoring, trend reports, and knowledge cards.",
+        "The open-source side covers AI Agent ecosystem signal collection, project scoring, and knowledge cards; weekly trend judgment is being rebuilt in a private repo.",
       inlongKicker: "Apache contribution",
       inlong:
         "2023 Apache InLong contributions around the data integration framework, including Manager / Sort fixes and security hardening.",
@@ -48,7 +60,7 @@ const copy = {
       title: "Timeline",
       item1Title: "Building AgentRadar",
       item1Text:
-        "Turning public AI Agent signals into ranked projects, weekly trend judgments, and reusable research artifacts.",
+        "Rebuilding AgentRadar around weekly trend judgment, organizing public signals, ranking reasons, and evidence chains into verifiable trend conclusions.",
       item2Title: "Text2SQL project",
       item2Text:
         "Building data intelligence around natural-language queries, schema linking, SQL generation, execution checks, and result validation.",
@@ -90,7 +102,7 @@ const copy = {
       title: "你好，我是 sunrisefromdark",
       line1: "AI Agent 与 Agent Harness 方向开发者",
       line2: "项目聚焦 AgentRadar 与 Text2SQL，能力覆盖搜索推荐和可验证数据工作流",
-      line3: "正在构建面向 AI Agent 生态的趋势雷达与数据智能工具",
+      line3: "正在重做 AgentRadar 的周趋势判断，把公开信号转成可复核的趋势结论",
       primaryCta: "查看项目",
       secondaryCta: "开源贡献",
     },
@@ -100,10 +112,22 @@ const copy = {
     projects: {
       agentRadarMeta: "开源项目",
       agentRadar:
-        "面向 AI Agent 生态的开源趋势雷达，负责信号采集、项目评分、日报周报和知识卡沉淀。",
+        "核心亮点是私有仓库重构中的周趋势判断：把公开 AI Agent 信号转成有证据、有排序、有解释的周级趋势结论。",
+      agentRadarPoint1:
+        "周趋势判断：识别项目、产品和生态信号的阶段性变化",
+      agentRadarPoint2:
+        "证据链沉淀：保留候选来源、评分理由和可复核依据",
+      agentRadarPoint3:
+        "输出物：日报 / 周报、项目卡片、趋势复盘",
       text2sqlMeta: "私有项目",
       text2sql:
         "自然语言到 SQL 的数据智能项目，关注 schema linking、SQL 生成、执行校验和结果验证。",
+      text2sqlPoint1:
+        "Schema linking：把自然语言问题对齐到真实表结构",
+      text2sqlPoint2:
+        "SQL 生成：面向业务查询生成可执行语句",
+      text2sqlPoint3:
+        "结果验证：通过执行反馈检查 SQL 与答案质量",
       detail: "查看详情 ->",
       repo: "代码仓库",
       demo: "在线演示",
@@ -113,7 +137,7 @@ const copy = {
       title: "开源贡献",
       agentRadarKicker: "开源项目",
       agentRadar:
-        "开源项目：AI Agent 生态信号采集、项目评分、趋势报告与知识卡沉淀。",
+        "开源部分覆盖 AI Agent 生态信号采集、项目评分与知识卡沉淀；周趋势判断能力正在私有仓库重构中。",
       inlongKicker: "Apache 贡献",
       inlong:
         "2023 年参与 Apache InLong 相关贡献，围绕数据集成框架的 Manager / Sort 等模块做代码修复与安全加固。",
@@ -124,7 +148,7 @@ const copy = {
       title: "经历时间轴",
       item1Title: "构建 AgentRadar",
       item1Text:
-        "把公开 AI Agent 信号转成项目排序、周级趋势判断和可复用研究产物。",
+        "围绕周趋势判断重构 AgentRadar，把公开信号、排序理由和证据链组织成可复核的趋势结论。",
       item2Title: "Text2SQL 项目",
       item2Text:
         "围绕自然语言查询、schema linking、SQL 生成、执行校验和结果验证做数据智能工具。",
