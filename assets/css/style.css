@@ -339,6 +339,33 @@ button {
   padding: 28px;
 }
 
+.project-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.project-meta span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 28px;
+  padding: 3px 11px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--bg-soft);
+  color: var(--muted);
+  font-size: 0.8rem;
+  font-weight: 820;
+}
+
+.project-meta span:first-child {
+  border-color: color-mix(in srgb, var(--blue) 28%, var(--line));
+  background: color-mix(in srgb, var(--blue) 12%, var(--surface));
+  color: var(--blue);
+}
+
 .project-body h3 {
   margin: 0;
   color: var(--text);
@@ -382,6 +409,44 @@ button {
   padding-top: 24px;
   color: var(--blue);
   font-weight: 850;
+}
+
+.card-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: auto;
+  padding-top: 24px;
+}
+
+.card-links a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 38px;
+  padding: 0 16px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--blue);
+  font-weight: 850;
+  transition: transform 180ms ease, border-color 180ms ease, background 180ms ease;
+}
+
+.card-links a:first-child {
+  border-color: var(--blue);
+  background: var(--blue);
+  color: white;
+}
+
+.card-links a:hover {
+  transform: translateY(-2px);
+  border-color: var(--blue);
+  background: color-mix(in srgb, var(--blue) 9%, var(--surface));
+}
+
+.card-links a:first-child:hover {
+  background: color-mix(in srgb, var(--blue) 88%, #111827);
 }
 
 .alt-section {
