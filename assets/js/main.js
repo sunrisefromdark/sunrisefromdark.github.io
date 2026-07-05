@@ -49,7 +49,7 @@ const copy = {
       title: "Open Source",
       agentRadarKicker: "Open-source project",
       agentRadar:
-        "The open-source side covers AI Agent ecosystem signal collection, project scoring, and knowledge cards; weekly trend judgment is being rebuilt in a private repo.",
+        "The open-source side builds AgentRadar's public signal foundation: collecting AI Agent project and ecosystem signals, scoring projects, preserving ranking reasons, and archiving knowledge cards as candidate and evidence inputs for weekly trend judgment.",
       inlongKicker: "Apache contribution",
       inlong:
         "2023 Apache InLong contributions around the data integration framework, including Manager / Sort fixes and security hardening.",
@@ -138,7 +138,7 @@ const copy = {
       title: "开源贡献",
       agentRadarKicker: "开源项目",
       agentRadar:
-        "开源部分覆盖 AI Agent 生态信号采集、项目评分与知识卡沉淀；周趋势判断能力正在私有仓库重构中。",
+        "开源部分沉淀 AgentRadar 的公开信号底座：持续采集 AI Agent 项目与生态动态，做项目评分、排序理由和知识卡归档，为周趋势判断提供候选池与证据链。",
       inlongKicker: "Apache 贡献",
       inlong:
         "2023 年参与 Apache InLong 相关贡献，围绕数据集成框架的 Manager / Sort 等模块做代码修复与安全加固。",
