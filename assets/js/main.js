@@ -54,6 +54,7 @@ const copy = {
       inlong:
         "2023 Apache InLong contributions around the data integration framework, including Manager / Sort fixes and security hardening.",
       repoLink: "Repository ->",
+      agentRadarCommitsLink: "Contribution records ->",
       commitsLink: "Contribution records ->",
     },
     timeline: {
@@ -142,6 +143,7 @@ const copy = {
       inlong:
         "2023 年参与 Apache InLong 相关贡献，围绕数据集成框架的 Manager / Sort 等模块做代码修复与安全加固。",
       repoLink: "代码仓库 ->",
+      agentRadarCommitsLink: "查看贡献记录 ->",
       commitsLink: "查看贡献记录 ->",
     },
     timeline: {
