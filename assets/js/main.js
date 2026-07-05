@@ -22,11 +22,16 @@ const copy = {
       title: "Portfolio",
     },
     projects: {
+      agentRadarMeta: "Open source",
       agentRadar:
         "An open-source trend radar for the AI Agent ecosystem, covering signal collection, project scoring, daily / weekly reports, and knowledge cards.",
+      text2sqlMeta: "Private project",
       text2sql:
         "A data intelligence project that turns natural-language questions into SQL, with schema linking, SQL generation, execution checks, and result validation.",
       detail: "View Details ->",
+      repo: "Repository",
+      demo: "Live Demo",
+      privateRepo: "Private Repo",
     },
     openSource: {
       title: "Open Source",
@@ -93,11 +98,16 @@ const copy = {
       title: "个人项目",
     },
     projects: {
+      agentRadarMeta: "开源项目",
       agentRadar:
         "面向 AI Agent 生态的开源趋势雷达，负责信号采集、项目评分、日报周报和知识卡沉淀。",
+      text2sqlMeta: "私有项目",
       text2sql:
         "自然语言到 SQL 的数据智能项目，关注 schema linking、SQL 生成、执行校验和结果验证。",
       detail: "查看详情 ->",
+      repo: "代码仓库",
+      demo: "在线演示",
+      privateRepo: "私有仓库",
     },
     openSource: {
       title: "开源贡献",
