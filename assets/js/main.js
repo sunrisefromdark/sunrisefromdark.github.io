@@ -17,7 +17,7 @@ const copy = {
       line1: "AI Agent and Agent Harness developer",
       line2: "Projects: AgentRadar and Text2SQL, with Agent Harness, search / recommendation, and verifiable data workflow experience",
       line3:
-        "AgentRadar is being upgraded from a project radar into an industry-level Agent trend judgment system, combining policy, economy, news, academic, community, product, and open-source signals to judge the direction of the Agent industry",
+        "AgentRadar is being upgraded from a project radar into an industry-level Agent weekly trend judgment system, with multi-observer sources, emerging-project discovery, scoring rationale, and tool fallback written into an auditable evidence chain",
       primaryCta: "View Projects",
       secondaryCta: "View Architecture",
     },
@@ -26,7 +26,7 @@ const copy = {
       title: "What I'm Building",
       item1Title: "Rebuilding AgentRadar industry-level trend judgment",
       item1Text:
-        "Normalizing policy / regulatory, capital / finance, news narrative, papers / conferences, community, product releases, and open-source ecosystem signals into industry evidence for Agent-sector judgment.",
+        "Extracting evidence from big tech, research institutes, labs, well-known developers, studios, communities, policy / finance, news / academic sources, and open-source projects to identify weekly trends, emerging projects, scoring reasons, and inflection points.",
       item2Title: "Text2SQL data intelligence system",
       item2Text:
         "Improving engineering credibility through schema linking, SQL generation, execution checks, result validation, and error attribution.",
@@ -40,15 +40,17 @@ const copy = {
     projects: {
       agentRadarMeta: "Open source",
       agentRadar:
-        "An industry-level Agent trend judgment system, not a generic news aggregator or project leaderboard. It turns policy, economy, news, academic, community, product, and open-source evidence into auditable industry claims.",
+        "An industry-level trend judgment system for the AI Agent ecosystem. It goes beyond news aggregation or project leaderboards by organizing multi-observer sources, scoring rationale, emerging-project discovery, and weekly trend decisions into an auditable evidence chain.",
       agentRadarPoint1:
-        "Multi-source evidence: policy / regulation, capital / finance, news narrative, papers / conferences, community discussion, product releases, developers, and open-source projects",
+        "Multi-observer sources: big tech / product lines, research institutes, labs, well-known developers, studios, communities, policy / finance, news / academic sources, and open-source projects",
       agentRadarPoint2:
-        "Industry claim ledger: use Industry Claim Ledger and a 10-axis evidence matrix to expose strong, weak, missing, and counter-evidence axes",
+        "Emerging projects: use ecosystem observer and long-tail candidate pools to catch Agent projects with real signals before they become consensus",
       agentRadarPoint3:
-        "Decision mechanism: combine Agent relevance gate, scoring / ranking, fact independence, counter-evidence audit, and trend-tier decision to avoid mistaking hype for trend",
+        "Scoring rationale: make utility, information gain, evidence strength, potential signal, exposure saturation, and counter-evidence gaps visible as ranking reasons",
       agentRadarPoint4:
-        "Outputs: daily / monthly reports, knowledge cards, industry-claim cards, and weekly industry narratives",
+        "Weekly judgment: use Industry Claim Ledger, a 10-axis evidence matrix, and a weekly trend agent to separate established trends, observing trends, and project heat clusters",
+      agentRadarPoint5:
+        "Stability: every evidence axis records primary / secondary / fallback / last resort routes, so tool failures become explicit degradation instead of fake no-trend conclusions",
       text2sqlMeta: "Private project",
       text2sql:
         "A data intelligence project that turns natural-language questions into SQL. It focuses on the evaluable chain from query understanding to execution feedback and result validation.",
@@ -68,43 +70,43 @@ const copy = {
     architecture: {
       title: "AgentRadar Architecture",
       intro:
-        "Multi-source industry signals -> industry evidence events -> 10-axis evidence matrix -> Industry Claim Ledger -> counter-evidence audit -> trend-tier decision -> daily / monthly reports, knowledge cards, and weekly industry narratives",
+        "Multi-observer sources -> emerging-project discovery -> scoring rationale -> Industry Claim Ledger -> weekly trend judgment -> tool fallback -> daily / monthly reports, knowledge cards, and weekly industry narratives",
       stage1Label: "Sources",
-      stage1Title: "Public Signals",
+      stage1Title: "Source Registry",
       stage1Text:
-        "Policy / regulation, capital / finance, news narratives, papers / conferences, community discussions, product releases, developers, and open-source projects.",
-      stage2Label: "Events",
-      stage2Title: "Industry Events",
+        "Cover big tech / product lines, research institutes, labs, well-known developers, studios, communities, policy / finance, news / academic sources, and open-source projects instead of only GitHub heat.",
+      stage2Label: "Emerging",
+      stage2Title: "Observer Discovery",
       stage2Text:
-        "Normalize into IndustrySignalEvent with source, actor, Agent relevance, authority, audit state, and traceable references.",
-      stage3Label: "10-axis Matrix",
-      stage3Title: "Evidence Matrix",
+        "Use ecosystem observer and long-tail candidate pools to catch Agent projects that are not consensus yet, while separating true potential from fame spillover.",
+      stage3Label: "Scoring",
+      stage3Title: "Scoring Rationale",
       stage3Text:
-        "Every industry claim exposes 10 evidence axes, including strong, weak, missing, and not-material axes.",
+        "Preserve utility, information gain, evidence strength, potential signal, exposure saturation, plus coverage / cohesion / novelty / reliability as explainable ranking reasons.",
       stage4Label: "Ledger",
       stage4Title: "Claim Ledger",
       stage4Text:
-        "Build an Industry Claim Ledger with claims, evidence links, Agent contributions, and decision context.",
-      stage5Label: "Audit & Decision",
-      stage5Title: "Audit & Decision",
+        "Normalize project, product, research, policy, capital, community, and news signals into an Industry Claim Ledger with actors, refs, contributions, and counter-evidence.",
+      stage5Label: "Weekly",
+      stage5Title: "Weekly Judgment",
       stage5Text:
-        "Use counter-evidence audit, fact independence, and tier decisions to separate core industry trends, observing trends, wind probes, and project heat clusters.",
-      stage6Label: "Outputs",
-      stage6Title: "Outputs",
+        "Rules first cluster evidence and expose unexplained projects; the weekly trend agent then audits, rejects, merges, splits, and renames candidates into established or observing trends.",
+      stage6Label: "Fallback",
+      stage6Title: "Tool Fallbacks",
       stage6Text:
-        "Daily reports, monthly reports, knowledge cards, industry-claim cards, weekly industry narratives, and traceable public projections.",
+        "Every evidence axis records primary / secondary / fallback / last resort routes. Failures are shown as degraded, weak observation, or unavailable before traceable reports and cards are published.",
     },
     openSource: {
       title: "Open Source",
       agentRadarKicker: "Open-source project",
       agentRadar:
-        "The open-source side builds the AI Agent industry evidence foundation, providing candidate pools, knowledge cards, ranking reasons, and reviewable evidence for private-repo industry-level weekly judgment.",
+        "The open-source side builds the AI Agent industry evidence foundation, providing candidate pools, long-tail observation, emerging projects, ranking reasons, and reviewable evidence for private-repo industry-level weekly judgment.",
       agentRadarPoint1:
-        "Collect public signals across projects / OSS, product releases, community discussions, and news narratives",
+        "Collect public signals across projects / OSS, product releases, community discussions, news narratives, and long-tail Agent ecosystem observation",
       agentRadarPoint2:
-        "Build knowledge cards, project scoring, ranking reasons, and evidence back-links",
+        "Build knowledge cards, project scoring, ranking reasons, emerging-project discovery, and evidence back-links",
       agentRadarPoint3:
-        "Provide the public foundation for the 10-axis evidence matrix, Industry Claim Ledger, and counter-evidence audit",
+        "Provide the public foundation for the 10-axis evidence matrix, Industry Claim Ledger, weekly judgment, and tool-degradation ledger",
       inlongKicker: "Apache contribution",
       inlong:
         "2023 Apache InLong contributions around the data integration framework, including Manager / Sort fixes and security hardening.",
@@ -121,7 +123,7 @@ const copy = {
       title: "Timeline",
       item1Title: "Building AgentRadar",
       item1Text:
-        "Rebuilding AgentRadar around industry-level Agent trend judgment, organizing policy, economy, news, academic, community, product, and open-source signals into an auditable Industry Claim Ledger.",
+        "Rebuilding AgentRadar around industry-level Agent weekly trend judgment, organizing multi-observer sources, emerging projects, scoring rationale, counter-evidence audit, and tool fallback into an auditable system.",
       item2Title: "Text2SQL project",
       item2Text:
         "Building data intelligence around natural-language queries, schema linking, SQL generation, execution checks, and result validation.",
@@ -166,7 +168,7 @@ const copy = {
       line1: "AI Agent 与 Agent Harness 方向开发者",
       line2: "项目聚焦 AgentRadar 与 Text2SQL，能力覆盖 Agent Harness、搜索推荐和可验证数据工作流",
       line3:
-        "AgentRadar 正在从项目雷达升级为行业级 Agent 趋势判断系统，综合政策、经济、新闻、学术、社区、产品与开源信号判断 Agent 全行业走向",
+        "AgentRadar 正在从项目雷达升级为行业级 Agent 周趋势判断系统：把多观察源、新兴潜力项目、项目评分依据和工具降级兜底都写进可审计证据链",
       primaryCta: "查看项目",
       secondaryCta: "查看架构",
     },
@@ -175,7 +177,7 @@ const copy = {
       title: "我正在做什么",
       item1Title: "AgentRadar 行业级趋势判断重构中",
       item1Text:
-        "把政策监管、资本金融、新闻叙事、论文会议、社区讨论、产品发布和开源生态等信号归一成行业证据，判断 Agent 全行业方向。",
+        "从大厂、研究所、实验室、知名开发者、工作室、社区、政策金融、新闻学术和开源项目抽取证据，识别周趋势、新兴潜力项目、评分依据与趋势拐点。",
       item2Title: "Text2SQL 数据智能系统",
       item2Text:
         "围绕 schema linking、SQL 生成、执行校验、结果验证和错误归因提升工程可信度。",
@@ -189,15 +191,17 @@ const copy = {
     projects: {
       agentRadarMeta: "开源项目",
       agentRadar:
-        "行业级 Agent 趋势判断系统，不是普通资讯聚合或项目榜单；它把跨政策、经济、新闻、学术、社区、产品和开源生态的证据组织成可审计行业主张。",
+        "面向 AI Agent 生态的行业级趋势判断系统。它不止做资讯聚合或项目榜单，而是把多观察源、项目评分依据、新兴潜力发现和周趋势裁决组织成可审计证据链。",
       agentRadarPoint1:
-        "多源证据：覆盖政策监管、资本金融、新闻叙事、论文会议、社区讨论、产品发布、开发者与开源项目",
+        "多观察源：覆盖大厂 / 产品线、研究所、实验室、知名开发者、工作室、社区、政策金融、新闻学术与开源项目",
       agentRadarPoint2:
-        "行业主张账本：用 Industry Claim Ledger 和十轴证据矩阵表达强轴、弱轴、缺失轴和反证轴",
+        "新兴潜力：通过 ecosystem observer 和长尾候选池发现尚未成为共识、但已出现真实信号的 Agent 项目",
       agentRadarPoint3:
-        "裁决机制：通过 Agent relevance gate、评分 / 排序、事实独立性、反证审计和趋势等级裁决避免把热度误写成趋势",
+        "评分依据：把帮助度、信息增量、证据强度、潜力信号、曝光饱和度和反证缺口写成可解释排序理由",
       agentRadarPoint4:
-        "输出：日报 / 月报、知识卡、行业主张卡和 weekly 行业趋势叙事",
+        "周趋势裁决：用 Industry Claim Ledger、十轴证据矩阵和 weekly trend agent 区分已成立趋势、待观察趋势与项目热度簇",
+      agentRadarPoint5:
+        "稳定性：每个证据轴记录 primary / secondary / fallback / last resort，工具失败时明确降级，不把采集失败写成无趋势",
       text2sqlMeta: "私有项目",
       text2sql:
         "自然语言到 SQL 的数据智能项目，重点不是只生成语句，而是把查询理解、执行反馈和结果验证串成可评估链路。",
@@ -217,43 +221,43 @@ const copy = {
     architecture: {
       title: "AgentRadar 架构图",
       intro:
-        "多源行业信号 -> 行业证据事件 -> 十轴证据矩阵 -> Industry Claim Ledger -> 反证审计 -> 趋势等级裁决 -> 日报 / 月报 / 知识卡 / weekly 行业叙事",
-      stage1Label: "多源信号",
-      stage1Title: "Public Signals",
+        "多观察源 -> 新兴潜力发现 -> 项目评分依据 -> Industry Claim Ledger -> 周趋势裁决 -> 工具降级兜底 -> 日报 / 月报 / 知识卡 / weekly 行业叙事",
+      stage1Label: "多观察源",
+      stage1Title: "Source Registry",
       stage1Text:
-        "政策监管、资本金融、新闻叙事、论文会议、社区讨论、产品发布、开发者与开源项目。",
-      stage2Label: "证据事件",
-      stage2Title: "Industry Events",
+        "覆盖大厂 / 产品线、研究所、实验室、知名开发者、工作室、社区、政策金融、新闻学术与开源项目，不只盯 GitHub 热榜。",
+      stage2Label: "新兴潜力",
+      stage2Title: "Observer Discovery",
       stage2Text:
-        "归一为 IndustrySignalEvent，保留来源、主体、Agent 相关性、权威度和可追溯引用。",
-      stage3Label: "十轴矩阵",
-      stage3Title: "Evidence Matrix",
+        "用 ecosystem observer 和长尾候选池捕捉尚未成为大众共识的 Agent 项目，并区分真实潜力信号与名气延伸。",
+      stage3Label: "评分依据",
+      stage3Title: "Scoring Rationale",
       stage3Text:
-        "每条行业主张输出十个证据轴，显式暴露强轴、弱轴、缺失轴和不适用轴。",
+        "沉淀帮助度、信息增量、证据强度、潜力信号、曝光饱和度，以及 coverage / cohesion / novelty / reliability 等排序依据。",
       stage4Label: "主张账本",
       stage4Title: "Claim Ledger",
       stage4Text:
-        "沉淀 Industry Claim Ledger，记录行业主张、证据链接、Agent 贡献和裁决上下文。",
-      stage5Label: "反证与裁决",
-      stage5Title: "Audit & Decision",
+        "把项目、产品、研究、政策、资本、社区、新闻等十轴信号归一到 Industry Claim Ledger，保留主体、引用、贡献和反证。",
+      stage5Label: "周趋势裁决",
+      stage5Title: "Weekly Judgment",
       stage5Text:
-        "通过反证审计、事实独立性和趋势等级裁决，区分核心行业趋势、观察趋势、风向探针和项目热度簇。",
-      stage6Label: "输出",
-      stage6Title: "Outputs",
+        "规则层先聚类并暴露未解释项目，再由 weekly trend agent 审核、否决、合并、拆分和重命名，区分已成立趋势与待观察趋势。",
+      stage6Label: "稳定兜底",
+      stage6Title: "Tool Fallbacks",
       stage6Text:
-        "日报、月报、知识卡、行业主张卡、weekly 行业叙事和可追溯 public projection。",
+        "每个证据轴记录 primary / secondary / fallback / last resort；工具失败时标注降级、弱观察或 unavailable，再输出可追溯日报、月报和知识卡。",
     },
     openSource: {
       title: "开源贡献",
       agentRadarKicker: "开源项目",
       agentRadar:
-        "开源部分沉淀 AI Agent 行业证据底座，为私有仓库中的行业级周趋势裁决提供候选池、知识卡、排序理由和可复核证据。",
+        "开源部分沉淀 AI Agent 行业证据底座，为私有仓库中的行业级周趋势裁决提供候选池、长尾观察、新兴潜力项目、排序理由和可复核证据。",
       agentRadarPoint1:
-        "覆盖项目 / 开源、产品发布、社区讨论和新闻叙事等公开信号",
+        "覆盖项目 / 开源、产品发布、社区讨论、新闻叙事与 Agent 生态长尾观察",
       agentRadarPoint2:
-        "沉淀知识卡、项目评分、排序理由和证据反链",
+        "沉淀知识卡、项目评分、排序理由、新兴潜力项目和证据反链",
       agentRadarPoint3:
-        "为后续十轴证据矩阵、Industry Claim Ledger 和反证审计提供公开底座",
+        "为十轴证据矩阵、Industry Claim Ledger、周趋势裁决和工具降级账本提供公开底座",
       inlongKicker: "Apache 贡献",
       inlong:
         "2023 年参与 Apache InLong 相关贡献，围绕数据集成框架的 Manager / Sort 等模块做代码修复与安全加固。",
@@ -268,7 +272,7 @@ const copy = {
       title: "经历时间轴",
       item1Title: "构建 AgentRadar",
       item1Text:
-        "围绕行业级 Agent 趋势判断重构 AgentRadar，把政策、经济、新闻、学术、社区、产品与开源信号组织成可审计的行业主张账本。",
+        "围绕行业级 Agent 周趋势判断重构 AgentRadar，把多观察源、新兴潜力项目、项目评分依据、反证审计和工具降级兜底组织成可审计系统。",
       item2Title: "Text2SQL 项目",
       item2Text:
         "围绕自然语言查询、schema linking、SQL 生成、执行校验和结果验证做数据智能工具。",
