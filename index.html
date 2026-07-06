@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="sunrisefromdark builds AI agent systems, agent harnesses, and search / recommendation workflows.">
+  <meta name="description" content="sunrisefromdark builds verifiable AI Agent systems and AgentRadar, an industry-level Agent trend judgment system.">
   <meta name="theme-color" content="#f8fafc">
   <title>sunrisefromdark | AI Agent Portfolio</title>
   <script>
@@ -49,8 +49,8 @@
         </div>
         <h1 data-i18n="hero.title">你好，我是 sunrisefromdark</h1>
         <p class="hero-subtitle" data-i18n="hero.line1">AI Agent 与 Agent Harness 方向开发者</p>
-        <p class="hero-subtitle" data-i18n="hero.line2">项目聚焦 AgentRadar 与 Text2SQL，能力覆盖搜索推荐和可验证数据工作流</p>
-        <p class="hero-subtitle" data-i18n="hero.line3">正在重做 AgentRadar 的周趋势判断，把公开信号转成可复核的趋势结论</p>
+        <p class="hero-subtitle" data-i18n="hero.line2">项目聚焦 AgentRadar 与 Text2SQL，能力覆盖 Agent Harness、搜索推荐和可验证数据工作流</p>
+        <p class="hero-subtitle" data-i18n="hero.line3">AgentRadar 正在从项目雷达升级为行业级 Agent 趋势判断系统，综合政策、经济、新闻、学术、社区、产品与开源信号判断 Agent 全行业走向</p>
         <div class="hero-actions" aria-label="Hero actions">
           <a class="hero-action primary" href="#work" data-i18n="hero.primaryCta">查看项目</a>
           <a class="hero-action" href="#architecture" data-i18n="hero.secondaryCta">查看架构</a>
@@ -68,8 +68,8 @@
         <div class="focus-grid">
           <article class="focus-card accent-blue">
             <span class="focus-index">01</span>
-            <h3 data-i18n="now.item1Title">AgentRadar 周趋势判断重构中</h3>
-            <p data-i18n="now.item1Text">把公开 AI Agent 信号整理成候选池、排序理由和证据链，产出周级趋势判断。</p>
+            <h3 data-i18n="now.item1Title">AgentRadar 行业级趋势判断重构中</h3>
+            <p data-i18n="now.item1Text">把政策监管、资本金融、新闻叙事、论文会议、社区讨论、产品发布和开源生态等信号归一成行业证据，判断 Agent 全行业方向。</p>
           </article>
           <article class="focus-card accent-green">
             <span class="focus-index">02</span>
@@ -103,18 +103,18 @@
                 <span>AI Agent</span>
               </div>
               <h3>AgentRadar</h3>
-              <p data-i18n="projects.agentRadar">AI Agent 生态信号采集、排序判断与周趋势分析系统；核心亮点是私有仓库重构中的周趋势判断，把分散信号转成可复核结论。</p>
+              <p data-i18n="projects.agentRadar">行业级 Agent 趋势判断系统，不是普通资讯聚合或项目榜单；它把跨政策、经济、新闻、学术、社区、产品和开源生态的证据组织成可审计行业主张。</p>
               <ul class="project-points">
-                <li data-i18n="projects.agentRadarPoint1">信号源：采集项目、产品、社区和生态动态，形成候选池</li>
-                <li data-i18n="projects.agentRadarPoint2">评分 / 排序：结合新鲜度、影响力、增长和相关性给出排序理由</li>
-                <li data-i18n="projects.agentRadarPoint3">证据链：保留来源、判断依据和人工复核上下文</li>
-                <li data-i18n="projects.agentRadarPoint4">输出：日报 / 月报、项目卡片、知识卡与周趋势复盘</li>
+                <li data-i18n="projects.agentRadarPoint1">多源证据：覆盖政策监管、资本金融、新闻叙事、论文会议、社区讨论、产品发布、开发者与开源项目</li>
+                <li data-i18n="projects.agentRadarPoint2">行业主张账本：用 Industry Claim Ledger 和十轴证据矩阵表达强轴、弱轴、缺失轴和反证轴</li>
+                <li data-i18n="projects.agentRadarPoint3">裁决机制：通过 Agent relevance gate、评分 / 排序、事实独立性、反证审计和趋势等级裁决避免把热度误写成趋势</li>
+                <li data-i18n="projects.agentRadarPoint4">输出：日报 / 月报、知识卡、行业主张卡和 weekly 行业趋势叙事</li>
               </ul>
               <div class="tag-row">
                 <span>TypeScript</span>
                 <span>React</span>
-                <span>AI Agent</span>
-                <span>Weekly Trend</span>
+                <span>Industry Claim</span>
+                <span>Evidence Matrix</span>
               </div>
               <div class="card-links">
                 <a href="https://github.com/sunrisefromdark/agentRadar" target="_blank" rel="noreferrer" data-i18n="projects.repo">代码仓库</a>
@@ -160,40 +160,40 @@
         <div class="section-heading centered">
           <h2 data-i18n="architecture.title">AgentRadar 架构图</h2>
           <span class="heading-line" aria-hidden="true"></span>
-          <p class="section-intro" data-i18n="architecture.intro">信号源 -> 评分 / 排序 -> 证据链 -> 周趋势判断 -> 日报 / 月报 / 知识卡输出</p>
+          <p class="section-intro" data-i18n="architecture.intro">多源行业信号 -> 行业证据事件 -> 十轴证据矩阵 -> Industry Claim Ledger -> 反证审计 -> 趋势等级裁决 -> 日报 / 月报 / 知识卡 / weekly 行业叙事</p>
         </div>
 
         <div class="architecture-panel" aria-label="AgentRadar architecture flow">
           <ol class="arch-flow">
             <li class="arch-stage">
-              <span class="stage-label" data-i18n="architecture.stage1Label">信号源</span>
+              <span class="stage-label" data-i18n="architecture.stage1Label">多源信号</span>
               <h3 data-i18n="architecture.stage1Title">Public Signals</h3>
-              <p data-i18n="architecture.stage1Text">GitHub、项目发布、产品动态、社区讨论与生态新闻。</p>
+              <p data-i18n="architecture.stage1Text">政策监管、资本金融、新闻叙事、论文会议、社区讨论、产品发布、开发者与开源项目。</p>
             </li>
             <li class="arch-stage">
-              <span class="stage-label" data-i18n="architecture.stage2Label">清洗归一</span>
-              <h3 data-i18n="architecture.stage2Title">Normalize</h3>
-              <p data-i18n="architecture.stage2Text">去重、时间窗口、实体归并、元数据补齐。</p>
+              <span class="stage-label" data-i18n="architecture.stage2Label">证据事件</span>
+              <h3 data-i18n="architecture.stage2Title">Industry Events</h3>
+              <p data-i18n="architecture.stage2Text">归一为 IndustrySignalEvent，保留来源、主体、Agent 相关性、权威度和可追溯引用。</p>
             </li>
             <li class="arch-stage">
-              <span class="stage-label" data-i18n="architecture.stage3Label">评分 / 排序</span>
-              <h3 data-i18n="architecture.stage3Title">Score & Rank</h3>
-              <p data-i18n="architecture.stage3Text">结合新鲜度、增长、影响力和相关性生成排序理由。</p>
+              <span class="stage-label" data-i18n="architecture.stage3Label">十轴矩阵</span>
+              <h3 data-i18n="architecture.stage3Title">Evidence Matrix</h3>
+              <p data-i18n="architecture.stage3Text">每条行业主张输出十个证据轴，显式暴露强轴、弱轴、缺失轴和不适用轴。</p>
             </li>
             <li class="arch-stage">
-              <span class="stage-label" data-i18n="architecture.stage4Label">证据链</span>
-              <h3 data-i18n="architecture.stage4Title">Evidence Chain</h3>
-              <p data-i18n="architecture.stage4Text">保留来源链接、判断依据、摘要和复核上下文。</p>
+              <span class="stage-label" data-i18n="architecture.stage4Label">主张账本</span>
+              <h3 data-i18n="architecture.stage4Title">Claim Ledger</h3>
+              <p data-i18n="architecture.stage4Text">沉淀 Industry Claim Ledger，记录行业主张、证据链接、Agent 贡献和裁决上下文。</p>
             </li>
             <li class="arch-stage highlight">
-              <span class="stage-label" data-i18n="architecture.stage5Label">周趋势判断</span>
-              <h3 data-i18n="architecture.stage5Title">Weekly Judgment</h3>
-              <p data-i18n="architecture.stage5Text">识别阶段性变化，形成有理由、有置信度的趋势结论。</p>
+              <span class="stage-label" data-i18n="architecture.stage5Label">反证与裁决</span>
+              <h3 data-i18n="architecture.stage5Title">Audit & Decision</h3>
+              <p data-i18n="architecture.stage5Text">通过反证审计、事实独立性和趋势等级裁决，区分核心行业趋势、观察趋势、风向探针和项目热度簇。</p>
             </li>
             <li class="arch-stage">
               <span class="stage-label" data-i18n="architecture.stage6Label">输出</span>
               <h3 data-i18n="architecture.stage6Title">Outputs</h3>
-              <p data-i18n="architecture.stage6Text">日报、月报、项目卡片、知识卡和趋势复盘。</p>
+              <p data-i18n="architecture.stage6Text">日报、月报、知识卡、行业主张卡、weekly 行业叙事和可追溯 public projection。</p>
             </li>
           </ol>
         </div>
@@ -214,11 +214,11 @@
               <span class="artifact-kicker" data-i18n="openSource.agentRadarKicker">开源项目</span>
             </div>
             <h3>AgentRadar</h3>
-            <p data-i18n="openSource.agentRadar">开源部分沉淀 AgentRadar 的公开信号底座，为私有仓库里的周趋势判断提供候选池和可复核证据。</p>
+            <p data-i18n="openSource.agentRadar">开源部分沉淀 AI Agent 行业证据底座，为私有仓库中的行业级周趋势裁决提供候选池、知识卡、排序理由和可复核证据。</p>
             <ul class="cred-list">
-              <li data-i18n="openSource.agentRadarPoint1">覆盖 AI Agent 项目与生态动态的公开信号采集</li>
-              <li data-i18n="openSource.agentRadarPoint2">沉淀项目评分、排序理由和知识卡归档链路</li>
-              <li data-i18n="openSource.agentRadarPoint3">保留在线演示与提交记录，方便查看实际贡献</li>
+              <li data-i18n="openSource.agentRadarPoint1">覆盖项目 / 开源、产品发布、社区讨论和新闻叙事等公开信号</li>
+              <li data-i18n="openSource.agentRadarPoint2">沉淀知识卡、项目评分、排序理由和证据反链</li>
+              <li data-i18n="openSource.agentRadarPoint3">为后续十轴证据矩阵、Industry Claim Ledger 和反证审计提供公开底座</li>
             </ul>
             <div class="artifact-tags">
               <span>Open Source</span>
@@ -267,7 +267,7 @@
             <time>2026</time>
             <div>
               <h3 data-i18n="timeline.item1Title">Building AgentRadar</h3>
-              <p data-i18n="timeline.item1Text">围绕周趋势判断重构 AgentRadar，把公开信号、排序理由和证据链组织成可复核的趋势结论。</p>
+              <p data-i18n="timeline.item1Text">围绕行业级 Agent 趋势判断重构 AgentRadar，把政策、经济、新闻、学术、社区、产品与开源信号组织成可审计的行业主张账本。</p>
             </div>
           </article>
           <article class="timeline-item">
