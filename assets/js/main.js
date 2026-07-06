@@ -29,7 +29,7 @@ const copy = {
         "Extracting evidence from big tech, research institutes, labs, well-known developers, studios, communities, policy / finance, news / academic sources, and open-source projects to identify weekly trends, emerging projects, scoring reasons, and inflection points.",
       item2Title: "Text2SQL data intelligence system",
       item2Text:
-        "Improving engineering credibility through schema linking, SQL generation, execution checks, result validation, and error attribution.",
+        "Turning the Multi-Agent Text2SQL main chain into a deterministic state machine, with dynamic routing, semantic contracts, high-risk SQL governance, versioned memory, and regression evaluation.",
       item3Title: "Agent Harness / evaluation / replayable workflows",
       item3Text:
         "Focusing on reproducible fixtures, schema checks, quality gates, and verification loops for agentic workflows.",
@@ -53,15 +53,17 @@ const copy = {
         "Stability: every evidence axis records primary / secondary / fallback / last resort routes, so tool failures become explicit degradation instead of fake no-trend conclusions",
       text2sqlMeta: "Private project",
       text2sql:
-        "A data intelligence project that turns natural-language questions into SQL. It focuses on the evaluable chain from query understanding to execution feedback and result validation.",
+        "A production-constrained Multi-Agent Text2SQL system. Instead of stopping at one generated SQL statement, MainChainCoordinator turns intent understanding, clarification, SQL generation, syntax / semantic repair, risk governance, controlled execution, and audit replay into a verifiable main chain.",
       text2sqlPoint1:
-        "Schema linking: align natural-language questions with real table structures",
+        "Deterministic main chain: MainChainCoordinator unifies the clarification source of truth and main state object, reducing repeated follow-ups and terminal-state drift in complex queries",
       text2sqlPoint2:
-        "SQL generation: produce executable queries while respecting dialect constraints",
+        "Shift-left semantic contracts: catch SQL that can execute but does not answer the question, while separating syntax repair from semantic repair ownership",
       text2sqlPoint3:
-        "Execution checks: use database feedback to validate syntax, fields, and result usability",
+        "5-tier dynamic routing: cover lightweight direct answers, clarification, heavy-path analysis, failure recovery, and high-risk governance paths",
       text2sqlPoint4:
-        "Evaluation loop: maintain test sets, error attribution, and result-quality validation",
+        "Controlled execution: support dry-run / snapshot-run / transactional-run with risk level, impact summary, second confirmation, and audit replay",
+      text2sqlPoint5:
+        "Verifiable iteration: versioned memory, 3-layer evaluation, 103 frozen samples, and 334+ automated tests continuously validate routing, clarification, memory, and recovery strategies",
       detail: "View Details ->",
       repo: "Repository",
       demo: "Live Demo",
@@ -126,7 +128,7 @@ const copy = {
         "Rebuilding AgentRadar around industry-level Agent weekly trend judgment, organizing multi-observer sources, emerging projects, scoring rationale, counter-evidence audit, and tool fallback into an auditable system.",
       item2Title: "Text2SQL project",
       item2Text:
-        "Building data intelligence around natural-language queries, schema linking, SQL generation, execution checks, and result validation.",
+        "Building a data intelligence system around Multi-Agent Text2SQL orchestration, dynamic routing, high-risk SQL governance, failure recovery, versioned memory, and regression evaluation.",
       item3Title: "Agent harness and verification loops",
       item3Text:
         "Focusing on replayable runs, fixtures, schema checks, and quality gates for agentic workflows.",
@@ -180,7 +182,7 @@ const copy = {
         "从大厂、研究所、实验室、知名开发者、工作室、社区、政策金融、新闻学术和开源项目抽取证据，识别周趋势、新兴潜力项目、评分依据与趋势拐点。",
       item2Title: "Text2SQL 数据智能系统",
       item2Text:
-        "围绕 schema linking、SQL 生成、执行校验、结果验证和错误归因提升工程可信度。",
+        "把 Multi-Agent Text2SQL 主链路收敛为确定性状态机，围绕动态路由、语义契约、高风险 SQL 治理、记忆版本化和评测回归提升系统可信度。",
       item3Title: "Agent Harness / 评测 / 可回放工作流",
       item3Text:
         "关注可复现 fixtures、schema 检查、质量门禁和 agent 工作流的验证闭环。",
@@ -204,15 +206,17 @@ const copy = {
         "稳定性：每个证据轴记录 primary / secondary / fallback / last resort，工具失败时明确降级，不把采集失败写成无趋势",
       text2sqlMeta: "私有项目",
       text2sql:
-        "自然语言到 SQL 的数据智能项目，重点不是只生成语句，而是把查询理解、执行反馈和结果验证串成可评估链路。",
+        "面向生产约束设计的 Multi-Agent Text2SQL 系统。它不把目标停在“生成一条 SQL”，而是用 MainChainCoordinator 把意图理解、澄清追问、SQL 生成、语法 / 语义修复、风险治理、受控执行和审计回放收敛成可验证主链路。",
       text2sqlPoint1:
-        "Schema linking：把自然语言问题对齐到真实表结构",
+        "确定性主链路：以 MainChainCoordinator 统一追问真源与主状态对象，减少复杂查询下的重复追问和终态漂移",
       text2sqlPoint2:
-        "SQL 生成：面向业务查询生成可执行语句并控制方言约束",
+        "语义契约前移：在 service 层拦截“能执行但不对题”的 SQL，并拆分语法修复与语义修复责任边界",
       text2sqlPoint3:
-        "执行校验：通过数据库反馈检查语法、字段和结果可用性",
+        "5 档动态路由：覆盖轻量直答、澄清追问、重路径分析、失败恢复和高风险治理路径",
       text2sqlPoint4:
-        "评测闭环：沉淀评测集、错误归因和结果质量验证",
+        "受控执行：支持 dry-run / snapshot-run / transactional-run，补齐风险分级、影响说明、二次确认和审计回放",
+      text2sqlPoint5:
+        "可验证迭代：记忆版本化、3 层评测、103 条冻结样本与 334+ 自动化测试，让路由、追问、记忆和恢复策略可持续回归",
       detail: "查看详情 ->",
       repo: "代码仓库",
       demo: "在线演示",
@@ -275,7 +279,7 @@ const copy = {
         "围绕行业级 Agent 周趋势判断重构 AgentRadar，把多观察源、新兴潜力项目、项目评分依据、反证审计和工具降级兜底组织成可审计系统。",
       item2Title: "Text2SQL 项目",
       item2Text:
-        "围绕自然语言查询、schema linking、SQL 生成、执行校验和结果验证做数据智能工具。",
+        "围绕 Multi-Agent Text2SQL 主链路、动态路由、高风险 SQL 治理、失败恢复、记忆版本化和评测回归做数据智能系统。",
       item3Title: "Agent Harness 与验证回路",
       item3Text:
         "关注可回放运行、fixtures、schema 检查和 Agent 工作流质量门禁。",
