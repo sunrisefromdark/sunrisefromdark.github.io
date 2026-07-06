@@ -397,11 +397,11 @@ button {
 }
 
 .accent-green {
-  --accent: var(--green);
+  --accent: var(--blue);
 }
 
 .accent-amber {
-  --accent: var(--amber);
+  --accent: var(--blue);
 }
 
 .focus-index {
@@ -697,19 +697,19 @@ button {
 }
 
 .arch-stage:nth-child(2) {
-  --stage-accent: var(--green);
+  --stage-accent: var(--blue);
 }
 
 .arch-stage:nth-child(3) {
-  --stage-accent: var(--amber);
+  --stage-accent: var(--blue);
 }
 
 .arch-stage:nth-child(4) {
-  --stage-accent: #6b7ee8;
+  --stage-accent: var(--blue);
 }
 
 .arch-stage:nth-child(6) {
-  --stage-accent: #1998a6;
+  --stage-accent: var(--blue);
 }
 
 .arch-stage:hover {
