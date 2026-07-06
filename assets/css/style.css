@@ -357,14 +357,7 @@ button {
 }
 
 .focus-card::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 24px;
-  width: 62px;
-  height: 4px;
-  border-radius: 0 0 999px 999px;
-  background: linear-gradient(90deg, var(--accent, var(--blue)), color-mix(in srgb, var(--accent, var(--blue)) 42%, transparent));
+  display: none;
 }
 
 .focus-card::after {
@@ -663,14 +656,7 @@ button {
 }
 
 .arch-stage::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 24px;
-  width: 72px;
-  height: 4px;
-  border-radius: 0 0 999px 999px;
-  background: linear-gradient(90deg, var(--stage-accent), color-mix(in srgb, var(--stage-accent) 34%, transparent));
+  display: none;
 }
 
 .arch-stage::after {
