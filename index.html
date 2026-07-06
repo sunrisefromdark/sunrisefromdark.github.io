@@ -74,7 +74,7 @@
           <article class="focus-card accent-green">
             <span class="focus-index">02</span>
             <h3 data-i18n="now.item2Title">Text2SQL 数据智能系统</h3>
-            <p data-i18n="now.item2Text">围绕 schema linking、SQL 生成、执行校验、结果验证和错误归因提升工程可信度。</p>
+            <p data-i18n="now.item2Text">把 Multi-Agent Text2SQL 主链路收敛为确定性状态机，围绕动态路由、语义契约、高风险 SQL 治理、记忆版本化和评测回归提升系统可信度。</p>
           </article>
           <article class="focus-card accent-amber">
             <span class="focus-index">03</span>
@@ -134,18 +134,20 @@
                 <span>Data Intelligence</span>
               </div>
               <h3>Text2SQL</h3>
-              <p data-i18n="projects.text2sql">自然语言到 SQL 的数据智能项目，重点不是只生成语句，而是把查询理解、执行反馈和结果验证串成可评估链路。</p>
+              <p data-i18n="projects.text2sql">面向生产约束设计的 Multi-Agent Text2SQL 系统。它不把目标停在“生成一条 SQL”，而是用 MainChainCoordinator 把意图理解、澄清追问、SQL 生成、语法 / 语义修复、风险治理、受控执行和审计回放收敛成可验证主链路。</p>
               <ul class="project-points">
-                <li data-i18n="projects.text2sqlPoint1">Schema linking：把自然语言问题对齐到真实表结构</li>
-                <li data-i18n="projects.text2sqlPoint2">SQL 生成：面向业务查询生成可执行语句并控制方言约束</li>
-                <li data-i18n="projects.text2sqlPoint3">执行校验：通过数据库反馈检查语法、字段和结果可用性</li>
-                <li data-i18n="projects.text2sqlPoint4">评测闭环：沉淀评测集、错误归因和结果质量验证</li>
+                <li data-i18n="projects.text2sqlPoint1">确定性主链路：以 MainChainCoordinator 统一追问真源与主状态对象，减少复杂查询下的重复追问和终态漂移</li>
+                <li data-i18n="projects.text2sqlPoint2">语义契约前移：在 service 层拦截“能执行但不对题”的 SQL，并拆分语法修复与语义修复责任边界</li>
+                <li data-i18n="projects.text2sqlPoint3">5 档动态路由：覆盖轻量直答、澄清追问、重路径分析、失败恢复和高风险治理路径</li>
+                <li data-i18n="projects.text2sqlPoint4">受控执行：支持 dry-run / snapshot-run / transactional-run，补齐风险分级、影响说明、二次确认和审计回放</li>
+                <li data-i18n="projects.text2sqlPoint5">可验证迭代：记忆版本化、3 层评测、103 条冻结样本与 334+ 自动化测试，让路由、追问、记忆和恢复策略可持续回归</li>
               </ul>
               <div class="tag-row">
-                <span>LLM</span>
-                <span>SQL</span>
-                <span>Schema Linking</span>
-                <span>Validation</span>
+                <span>Multi-Agent</span>
+                <span>MainChainCoordinator</span>
+                <span>Dynamic Routing</span>
+                <span>SQL Governance</span>
+                <span>Regression Eval</span>
               </div>
               <div class="card-links">
                 <a href="https://github.com/sunrisefromdark/text2sql" target="_blank" rel="noreferrer" data-i18n="projects.privateRepo">私有仓库</a>
@@ -275,7 +277,7 @@
             <time>2026</time>
             <div>
               <h3 data-i18n="timeline.item2Title">Text2SQL 项目</h3>
-              <p data-i18n="timeline.item2Text">围绕自然语言查询、schema linking、SQL 生成、执行校验和结果验证做数据智能工具。</p>
+              <p data-i18n="timeline.item2Text">围绕 Multi-Agent Text2SQL 主链路、动态路由、高风险 SQL 治理、失败恢复、记忆版本化和评测回归做数据智能系统。</p>
             </div>
           </article>
           <article class="timeline-item">
