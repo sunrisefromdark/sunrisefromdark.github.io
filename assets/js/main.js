@@ -27,9 +27,9 @@ const copy = {
       item1Title: "Rebuilding AgentRadar industry-level trend judgment",
       item1Text:
         "Extracting evidence from big tech, research institutes, labs, well-known developers, studios, communities, policy / finance, news / academic sources, and open-source projects to identify weekly trends, emerging projects, scoring reasons, and inflection points.",
-      item2Title: "Text2SQL data intelligence system",
+      item2Title: "Multi-Agent Text2SQL system",
       item2Text:
-        "Turning the Multi-Agent Text2SQL main chain into a deterministic state machine, with dynamic routing, semantic contracts, high-risk SQL governance, versioned memory, and regression evaluation.",
+        "Turning the multi-agent Text2SQL main chain into a deterministic state machine, with dynamic routing, semantic contracts, high-risk SQL governance, versioned memory, and regression evaluation.",
       item3Title: "Agent Harness / evaluation / replayable workflows",
       item3Text:
         "Focusing on reproducible fixtures, schema checks, quality gates, and verification loops for agentic workflows.",
@@ -53,7 +53,7 @@ const copy = {
         "Stability: every evidence axis records primary / secondary / fallback / last resort routes, so tool failures become explicit degradation instead of fake no-trend conclusions",
       text2sqlMeta: "Private project",
       text2sql:
-        "A production-constrained Multi-Agent Text2SQL system. Instead of stopping at one generated SQL statement, MainChainCoordinator turns intent understanding, clarification, SQL generation, syntax / semantic repair, risk governance, controlled execution, and audit replay into a verifiable main chain.",
+        "A production-constrained multi-agent Text2SQL system. Instead of stopping at one generated SQL statement, MainChainCoordinator turns intent understanding, clarification, SQL generation, syntax / semantic repair, risk governance, controlled execution, and audit replay into a verifiable main chain.",
       text2sqlPoint1:
         "Deterministic main chain: MainChainCoordinator unifies the clarification source of truth and main state object, reducing repeated follow-ups and terminal-state drift in complex queries",
       text2sqlPoint2:
@@ -128,7 +128,7 @@ const copy = {
         "Rebuilding AgentRadar around industry-level Agent weekly trend judgment, organizing multi-observer sources, emerging projects, scoring rationale, counter-evidence audit, and tool fallback into an auditable system.",
       item2Title: "Text2SQL project",
       item2Text:
-        "Building a data intelligence system around Multi-Agent Text2SQL orchestration, dynamic routing, high-risk SQL governance, failure recovery, versioned memory, and regression evaluation.",
+        "Building the multi-agent Text2SQL main chain around deterministic orchestration, dynamic routing, high-risk SQL governance, failure recovery, versioned memory, and regression evaluation.",
       item3Title: "Agent harness and verification loops",
       item3Text:
         "Focusing on replayable runs, fixtures, schema checks, and quality gates for agentic workflows.",
@@ -180,9 +180,9 @@ const copy = {
       item1Title: "AgentRadar 行业级趋势判断重构中",
       item1Text:
         "从大厂、研究所、实验室、知名开发者、工作室、社区、政策金融、新闻学术和开源项目抽取证据，识别周趋势、新兴潜力项目、评分依据与趋势拐点。",
-      item2Title: "Text2SQL 数据智能系统",
+      item2Title: "多 Agent Text2SQL 系统",
       item2Text:
-        "把 Multi-Agent Text2SQL 主链路收敛为确定性状态机，围绕动态路由、语义契约、高风险 SQL 治理、记忆版本化和评测回归提升系统可信度。",
+        "把多 Agent Text2SQL 主链路收敛为确定性状态机，围绕动态路由、语义契约、高风险 SQL 治理、记忆版本化和评测回归提升系统可信度。",
       item3Title: "Agent Harness / 评测 / 可回放工作流",
       item3Text:
         "关注可复现 fixtures、schema 检查、质量门禁和 agent 工作流的验证闭环。",
@@ -206,7 +206,7 @@ const copy = {
         "稳定性：每个证据轴记录 primary / secondary / fallback / last resort，工具失败时明确降级，不把采集失败写成无趋势",
       text2sqlMeta: "私有项目",
       text2sql:
-        "面向生产约束设计的 Multi-Agent Text2SQL 系统。它不把目标停在“生成一条 SQL”，而是用 MainChainCoordinator 把意图理解、澄清追问、SQL 生成、语法 / 语义修复、风险治理、受控执行和审计回放收敛成可验证主链路。",
+        "面向生产约束设计的多 Agent Text2SQL 系统。它不把目标停在“生成一条 SQL”，而是用 MainChainCoordinator 把意图理解、澄清追问、SQL 生成、语法 / 语义修复、风险治理、受控执行和审计回放收敛成可验证主链路。",
       text2sqlPoint1:
         "确定性主链路：以 MainChainCoordinator 统一追问真源与主状态对象，减少复杂查询下的重复追问和终态漂移",
       text2sqlPoint2:
@@ -279,7 +279,7 @@ const copy = {
         "围绕行业级 Agent 周趋势判断重构 AgentRadar，把多观察源、新兴潜力项目、项目评分依据、反证审计和工具降级兜底组织成可审计系统。",
       item2Title: "Text2SQL 项目",
       item2Text:
-        "围绕 Multi-Agent Text2SQL 主链路、动态路由、高风险 SQL 治理、失败恢复、记忆版本化和评测回归做数据智能系统。",
+        "围绕多 Agent Text2SQL 主链路、动态路由、高风险 SQL 治理、失败恢复、记忆版本化和评测回归做系统化重构。",
       item3Title: "Agent Harness 与验证回路",
       item3Text:
         "关注可回放运行、fixtures、schema 检查和 Agent 工作流质量门禁。",
