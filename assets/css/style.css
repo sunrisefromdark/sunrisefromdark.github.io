@@ -615,8 +615,8 @@ button {
 
 .arch-flow {
   display: grid;
-  grid-template-columns: repeat(6, minmax(0, 1fr));
-  gap: 14px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -624,7 +624,7 @@ button {
 
 .arch-stage {
   position: relative;
-  min-height: 218px;
+  min-height: 238px;
   padding: 22px 18px 20px;
   border: 1px solid var(--line);
   border-radius: 8px;
@@ -654,6 +654,11 @@ button {
   border-right: 2px solid var(--blue);
   transform: rotate(45deg);
   background: transparent;
+}
+
+.arch-stage:nth-child(3)::after,
+.arch-stage:nth-child(3)::before {
+  display: none;
 }
 
 .arch-stage.highlight {
@@ -987,15 +992,6 @@ button {
   .focus-grid,
   .stack-grid {
     grid-template-columns: 1fr 1fr;
-  }
-
-  .arch-flow {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-
-  .arch-stage:nth-child(3)::after,
-  .arch-stage:nth-child(3)::before {
-    display: none;
   }
 
   .project-grid.two-up,
