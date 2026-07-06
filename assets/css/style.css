@@ -361,17 +361,7 @@ button {
 }
 
 .focus-card::after {
-  content: "";
-  position: absolute;
-  right: 24px;
-  top: 24px;
-  width: 44px;
-  height: 44px;
-  border: 1px solid color-mix(in srgb, var(--accent, var(--blue)) 18%, var(--line));
-  border-radius: 14px;
-  background: var(--surface);
-  box-shadow: inset 0 0 0 8px color-mix(in srgb, var(--blue) 6%, var(--surface));
-  opacity: 0.86;
+  display: none;
 }
 
 .focus-card:hover {
@@ -413,7 +403,6 @@ button {
   position: relative;
   z-index: 1;
   margin: 24px 0 0;
-  padding-right: 42px;
   font-size: 1.22rem;
   line-height: 1.42;
   font-weight: 900;
@@ -660,17 +649,7 @@ button {
 }
 
 .arch-stage::after {
-  content: "";
-  position: absolute;
-  right: 22px;
-  top: 24px;
-  width: 40px;
-  height: 40px;
-  border: 1px solid color-mix(in srgb, var(--stage-accent) 18%, var(--line));
-  border-radius: 13px;
-  background: var(--surface);
-  box-shadow: inset 0 0 0 8px color-mix(in srgb, var(--blue) 6%, var(--surface));
-  opacity: 0.88;
+  display: none;
 }
 
 .arch-stage:nth-child(2) {
@@ -721,7 +700,6 @@ button {
   position: relative;
   z-index: 1;
   margin: 18px 0 0;
-  padding-right: 42px;
   font-size: 1.06rem;
   line-height: 1.35;
   font-weight: 900;
