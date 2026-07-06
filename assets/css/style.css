@@ -344,7 +344,6 @@ button {
 }
 
 .focus-card {
-  --accent-soft: color-mix(in srgb, var(--accent, var(--blue)) 10%, transparent);
   position: relative;
   isolation: isolate;
   min-height: 238px;
@@ -352,9 +351,7 @@ button {
   padding: 30px 30px 32px;
   border: 1px solid color-mix(in srgb, var(--accent, var(--blue)) 16%, var(--line));
   border-radius: 8px;
-  background:
-    linear-gradient(145deg, var(--accent-soft), transparent 42%),
-    var(--surface);
+  background: var(--surface);
   box-shadow: 0 18px 42px rgba(15, 23, 42, 0.07);
   transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
 }
@@ -379,11 +376,9 @@ button {
   height: 44px;
   border: 1px solid color-mix(in srgb, var(--accent, var(--blue)) 18%, var(--line));
   border-radius: 14px;
-  background:
-    linear-gradient(135deg, color-mix(in srgb, var(--accent, var(--blue)) 16%, var(--surface)), transparent),
-    var(--surface);
-  box-shadow: inset 0 0 0 8px color-mix(in srgb, var(--accent, var(--blue)) 8%, transparent);
-  opacity: 0.9;
+  background: var(--surface);
+  box-shadow: inset 0 0 0 8px color-mix(in srgb, var(--blue) 6%, var(--surface));
+  opacity: 0.86;
 }
 
 .focus-card:hover {
@@ -662,9 +657,7 @@ button {
   padding: 28px 24px 26px;
   border: 1px solid color-mix(in srgb, var(--stage-accent) 14%, var(--line));
   border-radius: 8px;
-  background:
-    linear-gradient(155deg, color-mix(in srgb, var(--stage-accent) 9%, transparent), transparent 46%),
-    var(--surface);
+  background: var(--surface);
   box-shadow: 0 18px 42px rgba(15, 23, 42, 0.07);
   transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease, background 180ms ease;
 }
@@ -689,10 +682,8 @@ button {
   height: 40px;
   border: 1px solid color-mix(in srgb, var(--stage-accent) 18%, var(--line));
   border-radius: 13px;
-  background:
-    linear-gradient(135deg, color-mix(in srgb, var(--stage-accent) 14%, var(--surface)), transparent),
-    var(--surface);
-  box-shadow: inset 0 0 0 8px color-mix(in srgb, var(--stage-accent) 7%, transparent);
+  background: var(--surface);
+  box-shadow: inset 0 0 0 8px color-mix(in srgb, var(--blue) 6%, var(--surface));
   opacity: 0.88;
 }
 
@@ -721,9 +712,7 @@ button {
 .arch-stage.highlight {
   --stage-accent: var(--blue);
   border-color: color-mix(in srgb, var(--stage-accent) 38%, var(--line));
-  background:
-    linear-gradient(155deg, color-mix(in srgb, var(--stage-accent) 13%, transparent), transparent 48%),
-    var(--surface);
+  background: var(--surface);
   box-shadow: 0 20px 52px rgba(37, 111, 216, 0.13);
 }
 
